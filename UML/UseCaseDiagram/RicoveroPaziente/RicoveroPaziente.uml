@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Skfj4HpcEe-L54CSzIguJw" name="RicoveroPaziente">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Sk824HpcEe-L54CSzIguJw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_XuXnwHpcEe-L54CSzIguJw" name="RicoveroPaziente">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_5hu_IHpdEe-L54CSzIguJw">
+      <body>Extension point:&#xD;
+Registrazione paziente&#xD;
+Condizione:&#xD;
+Il paziente non è registrato</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_zrJbsHpcEe-L54CSzIguJw" name="Registra paziente">
+      <extend xmi:type="uml:Extend" xmi:id="_z45uYHpdEe-L54CSzIguJw" extendedCase="_2Uv7MHpcEe-L54CSzIguJw" extensionLocation="_z45uYXpdEe-L54CSzIguJw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_2Uv7MHpcEe-L54CSzIguJw" name="Registra ricovero">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_z45uYXpdEe-L54CSzIguJw" name="Registrazioen paziente"/>
+      <include xmi:type="uml:Include" xmi:id="_mRQM8HpdEe-L54CSzIguJw" addition="_67xJoHpcEe-L54CSzIguJw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_67xJoHpcEe-L54CSzIguJw" name="Controllo posti letto"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FTYdsHpdEe-L54CSzIguJw" name="Somministrazione medicinali">
+      <include xmi:type="uml:Include" xmi:id="_j231MHpdEe-L54CSzIguJw" addition="_GyEpQHpdEe-L54CSzIguJw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GyEpQHpdEe-L54CSzIguJw" name="Registra somministrazione"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_LkrcoHpdEe-L54CSzIguJw" name="Prescrizione"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_QkXpwHpdEe-L54CSzIguJw" name="Prescrizione esami">
+      <generalization xmi:type="uml:Generalization" xmi:id="_ha5iAHpdEe-L54CSzIguJw" general="_LkrcoHpdEe-L54CSzIguJw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ZO3UsHpdEe-L54CSzIguJw" name="Prescrizione medicine">
+      <generalization xmi:type="uml:Generalization" xmi:id="_iPuRMHpdEe-L54CSzIguJw" general="_LkrcoHpdEe-L54CSzIguJw"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_aItjQHpcEe-L54CSzIguJw" name="Segreteria"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_jbkOsHpcEe-L54CSzIguJw" name="Personale sanitario" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_mEs0IHpcEe-L54CSzIguJw" name="Dottore">
+    <generalization xmi:type="uml:Generalization" xmi:id="_gI_OMHpdEe-L54CSzIguJw" general="_jbkOsHpcEe-L54CSzIguJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_nVHTIHpcEe-L54CSzIguJw" name="Infermiere">
+    <generalization xmi:type="uml:Generalization" xmi:id="_fMGIIHpdEe-L54CSzIguJw" general="_jbkOsHpcEe-L54CSzIguJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Ju-p0HpeEe-L54CSzIguJw" memberEnd="_Ju_Q4npeEe-L54CSzIguJw _Ju_Q43peEe-L54CSzIguJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ju_Q4HpeEe-L54CSzIguJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ju_Q4XpeEe-L54CSzIguJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ju_Q4npeEe-L54CSzIguJw" name="registra paziente" type="_zrJbsHpcEe-L54CSzIguJw" association="_Ju-p0HpeEe-L54CSzIguJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Ju_Q43peEe-L54CSzIguJw" name="segreteria" type="_aItjQHpcEe-L54CSzIguJw" association="_Ju-p0HpeEe-L54CSzIguJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Kum60HpeEe-L54CSzIguJw" memberEnd="_Kum603peEe-L54CSzIguJw _Kunh4HpeEe-L54CSzIguJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Kum60XpeEe-L54CSzIguJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Kum60npeEe-L54CSzIguJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Kum603peEe-L54CSzIguJw" name="registra ricovero" type="_2Uv7MHpcEe-L54CSzIguJw" association="_Kum60HpeEe-L54CSzIguJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Kunh4HpeEe-L54CSzIguJw" name="personale sanitario" type="_jbkOsHpcEe-L54CSzIguJw" association="_Kum60HpeEe-L54CSzIguJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LtgzEHpeEe-L54CSzIguJw" memberEnd="_LthaInpeEe-L54CSzIguJw _LthaI3peEe-L54CSzIguJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LthaIHpeEe-L54CSzIguJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LthaIXpeEe-L54CSzIguJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LthaInpeEe-L54CSzIguJw" name="somministrazione medicinali" type="_FTYdsHpdEe-L54CSzIguJw" association="_LtgzEHpeEe-L54CSzIguJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_LthaI3peEe-L54CSzIguJw" name="infermiere" type="_nVHTIHpcEe-L54CSzIguJw" association="_LtgzEHpeEe-L54CSzIguJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Mmg3oHpeEe-L54CSzIguJw" memberEnd="_Mmg3o3peEe-L54CSzIguJw _Mmg3pHpeEe-L54CSzIguJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Mmg3oXpeEe-L54CSzIguJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Mmg3onpeEe-L54CSzIguJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Mmg3o3peEe-L54CSzIguJw" name="prescrizione" type="_LkrcoHpdEe-L54CSzIguJw" association="_Mmg3oHpeEe-L54CSzIguJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Mmg3pHpeEe-L54CSzIguJw" name="dottore" type="_mEs0IHpcEe-L54CSzIguJw" association="_Mmg3oHpeEe-L54CSzIguJw"/>
+  </packagedElement>
+</uml:Model>

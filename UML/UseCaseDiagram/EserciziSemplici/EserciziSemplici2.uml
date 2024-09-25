@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_hwTvIHpOEe-L54CSzIguJw" name="EserciziSemplici">
+  <packagedElement xmi:type="uml:Package" xmi:id="__ECu8HpOEe-L54CSzIguJw" name="NegozioOnline">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_FBgWcHpQEe-L54CSzIguJw">
+      <body>Extension point:&#xD;
+Registrazione portale&#xD;
+Condition:&#xD;
+Cliente non registrato&#xD;
+</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GQa2EHpPEe-L54CSzIguJw" name="Acquista prodotto">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_jUDkYHpPEe-L54CSzIguJw" name="Registrazione portale"/>
+      <include xmi:type="uml:Include" xmi:id="_gjjLoHpPEe-L54CSzIguJw" addition="_KYT4gHpPEe-L54CSzIguJw"/>
+      <include xmi:type="uml:Include" xmi:id="_iJnKgHpPEe-L54CSzIguJw" addition="_OLcy8HpPEe-L54CSzIguJw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_KYT4gHpPEe-L54CSzIguJw" name="Consulta catalogo"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_MxWzgHpPEe-L54CSzIguJw" name="Registra account">
+      <extend xmi:type="uml:Extend" xmi:id="_jUC9UHpPEe-L54CSzIguJw" extendedCase="_GQa2EHpPEe-L54CSzIguJw" extensionLocation="_jUDkYHpPEe-L54CSzIguJw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OLcy8HpPEe-L54CSzIguJw" name="Effettua il pagamento"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_j47rsHpSEe-L54CSzIguJw" name="Evade ordini"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_lPDxIHpSEe-L54CSzIguJw" name="Aggiorna catalogo"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_DwMVAHpPEe-L54CSzIguJw" name="Cliente"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_eQhZEHpPEe-L54CSzIguJw" memberEnd="_eQj1UHpPEe-L54CSzIguJw _eQkcYHpPEe-L54CSzIguJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_eQjOQHpPEe-L54CSzIguJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eQjOQXpPEe-L54CSzIguJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eQj1UHpPEe-L54CSzIguJw" name="consulta catalogo" type="_KYT4gHpPEe-L54CSzIguJw" association="_eQhZEHpPEe-L54CSzIguJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_eQkcYHpPEe-L54CSzIguJw" name="cliente" type="_DwMVAHpPEe-L54CSzIguJw" association="_eQhZEHpPEe-L54CSzIguJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_e_9R8HpPEe-L54CSzIguJw" memberEnd="_e_9R83pPEe-L54CSzIguJw _e_95AHpPEe-L54CSzIguJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e_9R8XpPEe-L54CSzIguJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e_9R8npPEe-L54CSzIguJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_e_9R83pPEe-L54CSzIguJw" name="acquista prodotto" type="_GQa2EHpPEe-L54CSzIguJw" association="_e_9R8HpPEe-L54CSzIguJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_e_95AHpPEe-L54CSzIguJw" name="cliente" type="_DwMVAHpPEe-L54CSzIguJw" association="_e_9R8HpPEe-L54CSzIguJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_LTPIUHpSEe-L54CSzIguJw" name="Dipendente"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_OCPsQHpSEe-L54CSzIguJw" name="Amministratore Web">
+    <generalization xmi:type="uml:Generalization" xmi:id="_gUulIHpSEe-L54CSzIguJw" general="_LTPIUHpSEe-L54CSzIguJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Qye_QHpSEe-L54CSzIguJw" name="Responsabile ordini">
+    <generalization xmi:type="uml:Generalization" xmi:id="_fbGOcHpSEe-L54CSzIguJw" general="_LTPIUHpSEe-L54CSzIguJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pQQ8wHpSEe-L54CSzIguJw" memberEnd="_pQRj0npSEe-L54CSzIguJw _pQSK4HpSEe-L54CSzIguJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pQRj0HpSEe-L54CSzIguJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pQRj0XpSEe-L54CSzIguJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pQRj0npSEe-L54CSzIguJw" name="evade ordini" type="_j47rsHpSEe-L54CSzIguJw" association="_pQQ8wHpSEe-L54CSzIguJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pQSK4HpSEe-L54CSzIguJw" name="responsabile ordini" type="_Qye_QHpSEe-L54CSzIguJw" association="_pQQ8wHpSEe-L54CSzIguJw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qEtRcHpSEe-L54CSzIguJw" memberEnd="_qEt4gnpSEe-L54CSzIguJw _qEt4g3pSEe-L54CSzIguJw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qEt4gHpSEe-L54CSzIguJw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qEt4gXpSEe-L54CSzIguJw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qEt4gnpSEe-L54CSzIguJw" name="aggiorna catalogo" type="_lPDxIHpSEe-L54CSzIguJw" association="_qEtRcHpSEe-L54CSzIguJw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qEt4g3pSEe-L54CSzIguJw" name="amministratore web" type="_OCPsQHpSEe-L54CSzIguJw" association="_qEtRcHpSEe-L54CSzIguJw"/>
+  </packagedElement>
+</uml:Model>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_bJB-gHphEe-L54CSzIguJw" type="UseCase" name="UseCaseAziendaTrasporti" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_os82gHphEe-T4NHzzRRgkw" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_otJq0HphEe-T4NHzzRRgkw" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_otKR4HphEe-T4NHzzRRgkw" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_UcZR8HpiEe-T4NHzzRRgkw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_UcZR8npiEe-T4NHzzRRgkw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_UcZR83piEe-T4NHzzRRgkw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_UcZR9HpiEe-T4NHzzRRgkw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_UccVQHpiEe-T4NHzzRRgkw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_UccVQXpiEe-T4NHzzRRgkw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_UccVQnpiEe-T4NHzzRRgkw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UccVQ3piEe-T4NHzzRRgkw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="AziendaTrasporti.uml#_UcTLUHpiEe-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UcZR8XpiEe-T4NHzzRRgkw" x="194" y="43" width="481" height="101"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_bjzZgHpiEe-T4NHzzRRgkw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_bj0AkHpiEe-T4NHzzRRgkw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_bj0AkXpiEe-T4NHzzRRgkw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_bj0AknpiEe-T4NHzzRRgkw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_bj0Ak3piEe-T4NHzzRRgkw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_bj0AlHpiEe-T4NHzzRRgkw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_bj0AlXpiEe-T4NHzzRRgkw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bj0AlnpiEe-T4NHzzRRgkw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="AziendaTrasporti.uml#_bjtS4HpiEe-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bjzZgXpiEe-T4NHzzRRgkw" x="214" y="203" width="481" height="101"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ef2T4HpiEe-T4NHzzRRgkw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ef2T4npiEe-T4NHzzRRgkw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ef268HpiEe-T4NHzzRRgkw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ef268XpiEe-T4NHzzRRgkw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_ef268npiEe-T4NHzzRRgkw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_ef2683piEe-T4NHzzRRgkw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_ef269HpiEe-T4NHzzRRgkw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ef269XpiEe-T4NHzzRRgkw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="AziendaTrasporti.uml#_efwNQHpiEe-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ef2T4XpiEe-T4NHzzRRgkw" x="854" y="383" width="386" height="121"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_iBKegHpiEe-T4NHzzRRgkw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_iBKegnpiEe-T4NHzzRRgkw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_iBLFkHpiEe-T4NHzzRRgkw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_iBLFkXpiEe-T4NHzzRRgkw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_iBLFknpiEe-T4NHzzRRgkw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_iBLFk3piEe-T4NHzzRRgkw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_iBLFlHpiEe-T4NHzzRRgkw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iBLFlXpiEe-T4NHzzRRgkw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="AziendaTrasporti.uml#_iBEX4HpiEe-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iBKegXpiEe-T4NHzzRRgkw" x="54" y="463" width="501" height="121"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_kEZhkHpiEe-T4NHzzRRgkw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_kEZhknpiEe-T4NHzzRRgkw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_kEZhk3piEe-T4NHzzRRgkw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_kEZhlHpiEe-T4NHzzRRgkw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_kEZhlXpiEe-T4NHzzRRgkw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_kEZhlnpiEe-T4NHzzRRgkw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_kEZhl3piEe-T4NHzzRRgkw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kEZhmHpiEe-T4NHzzRRgkw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="AziendaTrasporti.uml#_kESz4HpiEe-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kEZhkXpiEe-T4NHzzRRgkw" x="214" y="883" width="501" height="121"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_IF1IcHpjEe-T4NHzzRRgkw" type="Comment_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_IF1vgHpjEe-T4NHzzRRgkw" type="Comment_BodyLabel_CN"/>
+        <element xmi:type="uml:Comment" href="AziendaTrasporti.uml#_IFtzsHpjEe-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IF1IcXpjEe-T4NHzzRRgkw" x="776" y="190" width="321" height="121"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_NnVCIHpjEe-T4NHzzRRgkw" type="Comment_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_NnVCInpjEe-T4NHzzRRgkw" type="Comment_BodyLabel_CN"/>
+        <element xmi:type="uml:Comment" href="AziendaTrasporti.uml#_NmWxwHpjEe-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NnVCIXpjEe-T4NHzzRRgkw" x="574" y="523"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_SKRB0HpjEe-T4NHzzRRgkw" type="Comment_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_SKRo4HpjEe-T4NHzzRRgkw" type="Comment_BodyLabel_CN"/>
+        <element xmi:type="uml:Comment" href="AziendaTrasporti.uml#_SISE0HpjEe-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SKRB0XpjEe-T4NHzzRRgkw" x="634" y="783"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_otKR4XphEe-T4NHzzRRgkw"/>
+    </children>
+    <element xmi:type="uml:Package" href="AziendaTrasporti.uml#_osdHQHphEe-T4NHzzRRgkw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_os82gXphEe-T4NHzzRRgkw" x="720" y="100" width="1341" height="1061"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_qiElEHphEe-T4NHzzRRgkw" type="Actor_Shape" fontHeight="14">
+    <children xmi:type="notation:DecorationNode" xmi:id="_qiFMIXphEe-T4NHzzRRgkw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qiFMInphEe-T4NHzzRRgkw" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qiFMI3phEe-T4NHzzRRgkw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qiFMJHphEe-T4NHzzRRgkw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qiFMJXphEe-T4NHzzRRgkw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qiFMJnphEe-T4NHzzRRgkw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_qiFMJ3phEe-T4NHzzRRgkw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_qiFMKHphEe-T4NHzzRRgkw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="AziendaTrasporti.uml#_qiDW8HphEe-T4NHzzRRgkw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qiFMIHphEe-T4NHzzRRgkw" x="80" y="640" width="61" height="130"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_rhRYQHphEe-T4NHzzRRgkw" type="Actor_Shape" fontHeight="14">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rhRYQnphEe-T4NHzzRRgkw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rhRYQ3phEe-T4NHzzRRgkw" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rhR_UHphEe-T4NHzzRRgkw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rhR_UXphEe-T4NHzzRRgkw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rhR_UnphEe-T4NHzzRRgkw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rhR_U3phEe-T4NHzzRRgkw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rhR_VHphEe-T4NHzzRRgkw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rhR_VXphEe-T4NHzzRRgkw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="AziendaTrasporti.uml#_rhOU8HphEe-T4NHzzRRgkw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rhRYQXphEe-T4NHzzRRgkw" x="360" y="280" width="61" height="130"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_srKYgHphEe-T4NHzzRRgkw" type="Actor_Shape" fontHeight="14">
+    <children xmi:type="notation:DecorationNode" xmi:id="_srKYgnphEe-T4NHzzRRgkw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_srKYg3phEe-T4NHzzRRgkw" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_srKYhHphEe-T4NHzzRRgkw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_srKYhXphEe-T4NHzzRRgkw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_srKYhnphEe-T4NHzzRRgkw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_srKYh3phEe-T4NHzzRRgkw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_srKYiHphEe-T4NHzzRRgkw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_srKYiXphEe-T4NHzzRRgkw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="AziendaTrasporti.uml#_srJKYHphEe-T4NHzzRRgkw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_srKYgXphEe-T4NHzzRRgkw" x="360" y="560" width="61" height="130"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_xsqjgHphEe-T4NHzzRRgkw" type="Actor_Shape" fontHeight="14">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xsqjgnphEe-T4NHzzRRgkw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xsqjg3phEe-T4NHzzRRgkw" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xsrKkHphEe-T4NHzzRRgkw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xsrKkXphEe-T4NHzzRRgkw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xsrKknphEe-T4NHzzRRgkw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xsrKk3phEe-T4NHzzRRgkw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xsrKlHphEe-T4NHzzRRgkw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xsrKlXphEe-T4NHzzRRgkw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="AziendaTrasporti.uml#_xsp8cHphEe-T4NHzzRRgkw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xsqjgXphEe-T4NHzzRRgkw" x="360" y="820" width="61" height="130"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_bJB-gXphEe-L54CSzIguJw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_bJB-gnphEe-L54CSzIguJw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_bJB-g3phEe-L54CSzIguJw" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+    <owner xmi:type="uml:Model" href="AziendaTrasporti.uml#_Y0708HphEe-L54CSzIguJw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="AziendaTrasporti.uml#_Y0708HphEe-L54CSzIguJw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_6pfUkHphEe-T4NHzzRRgkw" type="Generalization_Edge" source="_srKYgHphEe-T4NHzzRRgkw" target="_qiElEHphEe-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_6pfUk3phEe-T4NHzzRRgkw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-nDWUHphEe-T4NHzzRRgkw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6pfUlHphEe-T4NHzzRRgkw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_6pfUkXphEe-T4NHzzRRgkw"/>
+    <element xmi:type="uml:Generalization" href="AziendaTrasporti.uml#_6pYm4HphEe-T4NHzzRRgkw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6pfUknphEe-T4NHzzRRgkw" points="[360, 640, -643984, -643984]$[141, 640, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6prh0HphEe-T4NHzzRRgkw" id="(0.0,0.6153846153846154)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6prh0XphEe-T4NHzzRRgkw" id="(1.0,0.6153846153846154)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_TT_fcHpiEe-T4NHzzRRgkw" type="Generalization_Edge" source="_xsqjgHphEe-T4NHzzRRgkw" target="_qiElEHphEe-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TUAGgHpiEe-T4NHzzRRgkw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_TUAGgXpiEe-T4NHzzRRgkw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_TT_fcXpiEe-T4NHzzRRgkw"/>
+    <element xmi:type="uml:Generalization" href="AziendaTrasporti.uml#_TT5_4HpiEe-T4NHzzRRgkw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TT_fcnpiEe-T4NHzzRRgkw" points="[360, 880, -643984, -643984]$[141, 740, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TUJ3gHpiEe-T4NHzzRRgkw" id="(0.0,0.46153846153846156)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_TUJ3gXpiEe-T4NHzzRRgkw" id="(1.0,0.7692307692307693)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_0xw2wHpiEe-T4NHzzRRgkw" type="Extend_Edge" source="_ef2T4HpiEe-T4NHzzRRgkw" target="_bjzZgHpiEe-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0xxd0HpiEe-T4NHzzRRgkw" type="Extend_KeywordLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0xxd0XpiEe-T4NHzzRRgkw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0xxd0npiEe-T4NHzzRRgkw" type="Extend_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0xxd03piEe-T4NHzzRRgkw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_0xw2wXpiEe-T4NHzzRRgkw"/>
+    <element xmi:type="uml:Extend" href="AziendaTrasporti.uml#_0xpiAHpiEe-T4NHzzRRgkw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0xw2wnpiEe-T4NHzzRRgkw" points="[1660, 531, -643984, -643984]$[1375, 420, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0yHcEHpiEe-T4NHzzRRgkw" id="(0.20725388601036268,0.09090909090909091)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0yHcEXpiEe-T4NHzzRRgkw" id="(0.9043659043659044,0.7920792079207921)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_1itLgHpiEe-T4NHzzRRgkw" type="Extend_Edge" source="_ef2T4HpiEe-T4NHzzRRgkw" target="_iBKegHpiEe-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1itLg3piEe-T4NHzzRRgkw" type="Extend_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8BQjUHpiEe-T4NHzzRRgkw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1itLhHpiEe-T4NHzzRRgkw" x="-1" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1itLhXpiEe-T4NHzzRRgkw" type="Extend_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8BXRAHpiEe-T4NHzzRRgkw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1itLhnpiEe-T4NHzzRRgkw" x="-1" y="-18"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_1itLgXpiEe-T4NHzzRRgkw"/>
+    <element xmi:type="uml:Extend" href="AziendaTrasporti.uml#_1imd0HpiEe-T4NHzzRRgkw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1itLgnpiEe-T4NHzzRRgkw" points="[1590, 600, -643984, -643984]$[1400, 707, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1i6m4HpiEe-T4NHzzRRgkw" id="(0.025906735751295335,0.6611570247933884)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1i6m4XpiEe-T4NHzzRRgkw" id="(0.9181636726546906,0.2231404958677686)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_2QhTwHpiEe-T4NHzzRRgkw" type="Extend_Edge" source="_ef2T4HpiEe-T4NHzzRRgkw" target="_kEZhkHpiEe-T4NHzzRRgkw" routing="Rectilinear">
+    <children xmi:type="notation:DecorationNode" xmi:id="_2Qh60HpiEe-T4NHzzRRgkw" type="Extend_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_82b30HpiEe-T4NHzzRRgkw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2Qh60XpiEe-T4NHzzRRgkw" x="1" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2Qh60npiEe-T4NHzzRRgkw" type="Extend_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_82jMkHpiEe-T4NHzzRRgkw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2Qh603piEe-T4NHzzRRgkw" x="-225" y="-36"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_2QhTwXpiEe-T4NHzzRRgkw"/>
+    <element xmi:type="uml:Extend" href="AziendaTrasporti.uml#_2QZ_AHpiEe-T4NHzzRRgkw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_2QhTwnpiEe-T4NHzzRRgkw" points="[1720, 638, -643984, -643984]$[1440, 956, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2QvWMHpiEe-T4NHzzRRgkw" id="(0.3626943005181347,0.9752066115702479)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_2QvWMXpiEe-T4NHzzRRgkw" id="(0.9580838323353293,0.2975206611570248)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_3rXhIHpiEe-T4NHzzRRgkw" type="Association_Edge" source="_rhRYQHphEe-T4NHzzRRgkw" target="_UcZR8HpiEe-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_3rXhI3piEe-T4NHzzRRgkw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3rXhJHpiEe-T4NHzzRRgkw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_3rXhJXpiEe-T4NHzzRRgkw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3rXhJnpiEe-T4NHzzRRgkw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_3rXhIXpiEe-T4NHzzRRgkw"/>
+    <element xmi:type="uml:Association" href="AziendaTrasporti.uml#_3rUd0HpiEe-T4NHzzRRgkw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3rXhInpiEe-T4NHzzRRgkw" points="[360, 360, -643984, -643984]$[940, 250, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3rp1AHpiEe-T4NHzzRRgkw" id="(1.0,0.46153846153846156)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3rp1AXpiEe-T4NHzzRRgkw" id="(0.04158004158004158,0.693069306930693)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_4lx68HpiEe-T4NHzzRRgkw" type="Association_Edge" source="_rhRYQHphEe-T4NHzzRRgkw" target="_bjzZgHpiEe-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4lx683piEe-T4NHzzRRgkw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4lx69HpiEe-T4NHzzRRgkw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4lx69XpiEe-T4NHzzRRgkw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4lx69npiEe-T4NHzzRRgkw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_4lx68XpiEe-T4NHzzRRgkw"/>
+    <element xmi:type="uml:Association" href="AziendaTrasporti.uml#_4lws0HpiEe-T4NHzzRRgkw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4lx68npiEe-T4NHzzRRgkw" points="[421, 380, -643984, -643984]$[945, 380, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4l_9YHpiEe-T4NHzzRRgkw" id="(1.0,0.7692307692307693)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4l_9YXpiEe-T4NHzzRRgkw" id="(0.010395010395010396,0.39603960396039606)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_6115EHpiEe-T4NHzzRRgkw" type="Association_Edge" source="_srKYgHphEe-T4NHzzRRgkw" target="_iBKegHpiEe-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_6115E3piEe-T4NHzzRRgkw" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8BdXoHpiEe-T4NHzzRRgkw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6115FHpiEe-T4NHzzRRgkw" y="39"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6115FXpiEe-T4NHzzRRgkw" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_8BjeQHpiEe-T4NHzzRRgkw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6115FnpiEe-T4NHzzRRgkw" x="1" y="-18"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_6115EXpiEe-T4NHzzRRgkw"/>
+    <element xmi:type="uml:Association" href="AziendaTrasporti.uml#_610D4HpiEe-T4NHzzRRgkw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6115EnpiEe-T4NHzzRRgkw" points="[360, 640, -643984, -643984]$[954, 720, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_62EikHpiEe-T4NHzzRRgkw" id="(1.0,0.6153846153846154)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_62EikXpiEe-T4NHzzRRgkw" id="(0.027944111776447105,0.3305785123966942)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_7e9HgHpiEe-T4NHzzRRgkw" type="Association_Edge" source="_xsqjgHphEe-T4NHzzRRgkw" target="_kEZhkHpiEe-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_7e9Hg3piEe-T4NHzzRRgkw" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_82p6QHpiEe-T4NHzzRRgkw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7e9HhHpiEe-T4NHzzRRgkw" x="1" y="39"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7e9HhXpiEe-T4NHzzRRgkw" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_82wn8HpiEe-T4NHzzRRgkw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7e9HhnpiEe-T4NHzzRRgkw" x="-1" y="-18"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7e9HgXpiEe-T4NHzzRRgkw"/>
+    <element xmi:type="uml:Association" href="AziendaTrasporti.uml#_7e7SUHpiEe-T4NHzzRRgkw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7e9HgnpiEe-T4NHzzRRgkw" points="[421, 880, -643984, -643984]$[974, 960, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7fLxAHpiEe-T4NHzzRRgkw" id="(1.0,0.46153846153846156)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7fLxAXpiEe-T4NHzzRRgkw" id="(0.027944111776447105,0.3305785123966942)"/>
+  </edges>
+</notation:Diagram>

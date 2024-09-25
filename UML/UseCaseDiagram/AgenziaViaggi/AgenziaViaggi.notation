@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_WSEqEHp2Ee-T4NHzzRRgkw" type="UseCase" name="UseCaseAgenziaViaggi" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_-P7qQHp2Ee-T4NHzzRRgkw" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-P7qQnp2Ee-T4NHzzRRgkw" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_-P7qQ3p2Ee-T4NHzzRRgkw" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_Flil4Hp3Ee-T4NHzzRRgkw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Flil4np3Ee-T4NHzzRRgkw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Flil43p3Ee-T4NHzzRRgkw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Flil5Hp3Ee-T4NHzzRRgkw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_FljM8Hp3Ee-T4NHzzRRgkw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_FljM8Xp3Ee-T4NHzzRRgkw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_FljM8np3Ee-T4NHzzRRgkw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FljM83p3Ee-T4NHzzRRgkw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="AgenziaViaggi.uml#_FlgJoHp3Ee-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Flil4Xp3Ee-T4NHzzRRgkw" x="54" y="43" width="401" height="81"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_HQqq8Hp3Ee-T4NHzzRRgkw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_HQqq8np3Ee-T4NHzzRRgkw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_HQqq83p3Ee-T4NHzzRRgkw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_HQqq9Hp3Ee-T4NHzzRRgkw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_HQqq9Xp3Ee-T4NHzzRRgkw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_HQqq9np3Ee-T4NHzzRRgkw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_HQqq93p3Ee-T4NHzzRRgkw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HQqq-Hp3Ee-T4NHzzRRgkw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="AgenziaViaggi.uml#_HQnnoHp3Ee-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HQqq8Xp3Ee-T4NHzzRRgkw" x="54" y="183" width="301" height="101"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_JpCQgHp3Ee-T4NHzzRRgkw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_JpC3kHp3Ee-T4NHzzRRgkw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_JpC3kXp3Ee-T4NHzzRRgkw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_JpC3knp3Ee-T4NHzzRRgkw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_JpC3k3p3Ee-T4NHzzRRgkw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_JpC3lHp3Ee-T4NHzzRRgkw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_JpC3lXp3Ee-T4NHzzRRgkw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JpC3lnp3Ee-T4NHzzRRgkw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="AgenziaViaggi.uml#_Jo_NMHp3Ee-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JpCQgXp3Ee-T4NHzzRRgkw" x="74" y="343" width="361" height="121"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_VG_hkHp3Ee-T4NHzzRRgkw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_VG_hknp3Ee-T4NHzzRRgkw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_VG_hk3p3Ee-T4NHzzRRgkw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_VG_hlHp3Ee-T4NHzzRRgkw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_VG_hlXp3Ee-T4NHzzRRgkw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_VG_hlnp3Ee-T4NHzzRRgkw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_VG_hl3p3Ee-T4NHzzRRgkw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VG_hmHp3Ee-T4NHzzRRgkw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="AgenziaViaggi.uml#_VG73MHp3Ee-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VG_hkXp3Ee-T4NHzzRRgkw" x="74" y="583" width="541" height="141"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_WlcckHp3Ee-T4NHzzRRgkw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Wlccknp3Ee-T4NHzzRRgkw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Wlcck3p3Ee-T4NHzzRRgkw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_WldDoHp3Ee-T4NHzzRRgkw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_WldDoXp3Ee-T4NHzzRRgkw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_WldDonp3Ee-T4NHzzRRgkw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_WldDo3p3Ee-T4NHzzRRgkw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WldDpHp3Ee-T4NHzzRRgkw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="AgenziaViaggi.uml#_WlYLIHp3Ee-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WlcckXp3Ee-T4NHzzRRgkw" x="654" y="363" width="381" height="120"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_jPqscHp3Ee-T4NHzzRRgkw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_jPqscnp3Ee-T4NHzzRRgkw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_jPqsc3p3Ee-T4NHzzRRgkw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_jPqsdHp3Ee-T4NHzzRRgkw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_jPqsdXp3Ee-T4NHzzRRgkw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_jPqsdnp3Ee-T4NHzzRRgkw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_jPqsd3p3Ee-T4NHzzRRgkw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jPqseHp3Ee-T4NHzzRRgkw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="AgenziaViaggi.uml#_jPnpIHp3Ee-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jPqscXp3Ee-T4NHzzRRgkw" x="794" y="563" width="449" height="120"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_mnwpoHp3Ee-T4NHzzRRgkw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_mnwponp3Ee-T4NHzzRRgkw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_mnwpo3p3Ee-T4NHzzRRgkw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_mnwppHp3Ee-T4NHzzRRgkw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_mnwppXp3Ee-T4NHzzRRgkw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_mnwppnp3Ee-T4NHzzRRgkw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_mnwpp3p3Ee-T4NHzzRRgkw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mnwpqHp3Ee-T4NHzzRRgkw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="AgenziaViaggi.uml#_mnrKEHp3Ee-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mnwpoXp3Ee-T4NHzzRRgkw" x="94" y="903" width="465" height="101"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_onOnAHp3Ee-T4NHzzRRgkw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_onOnAnp3Ee-T4NHzzRRgkw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_onOnA3p3Ee-T4NHzzRRgkw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_onOnBHp3Ee-T4NHzzRRgkw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_onOnBXp3Ee-T4NHzzRRgkw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_onOnBnp3Ee-T4NHzzRRgkw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_onOnB3p3Ee-T4NHzzRRgkw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_onOnCHp3Ee-T4NHzzRRgkw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="AgenziaViaggi.uml#_onKVkHp3Ee-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_onOnAXp3Ee-T4NHzzRRgkw" x="614" y="903" width="461" height="101"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_sLOSMHp3Ee-T4NHzzRRgkw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_sLOSMnp3Ee-T4NHzzRRgkw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_sLOSM3p3Ee-T4NHzzRRgkw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_sLOSNHp3Ee-T4NHzzRRgkw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_sLOSNXp3Ee-T4NHzzRRgkw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_sLOSNnp3Ee-T4NHzzRRgkw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_sLOSN3p3Ee-T4NHzzRRgkw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sLOSOHp3Ee-T4NHzzRRgkw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="AgenziaViaggi.uml#_sLIyoHp3Ee-T4NHzzRRgkw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sLOSMXp3Ee-T4NHzzRRgkw" x="1094" y="903" width="461" height="101"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-P7qRHp2Ee-T4NHzzRRgkw"/>
+    </children>
+    <element xmi:type="uml:Package" href="AgenziaViaggi.uml#_-P6cIHp2Ee-T4NHzzRRgkw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-P7qQXp2Ee-T4NHzzRRgkw" x="300" y="80" width="1601" height="1081"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_AzWCMHp3Ee-T4NHzzRRgkw" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_AzWCMnp3Ee-T4NHzzRRgkw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AzWCM3p3Ee-T4NHzzRRgkw" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AzWCNHp3Ee-T4NHzzRRgkw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AzWCNXp3Ee-T4NHzzRRgkw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AzWCNnp3Ee-T4NHzzRRgkw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AzWCN3p3Ee-T4NHzzRRgkw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_AzWCOHp3Ee-T4NHzzRRgkw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AzWCOXp3Ee-T4NHzzRRgkw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="AgenziaViaggi.uml#_AzVbIHp3Ee-T4NHzzRRgkw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AzWCMXp3Ee-T4NHzzRRgkw" x="60" y="240" width="81" height="161"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_BtogMHp3Ee-T4NHzzRRgkw" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_BtogMnp3Ee-T4NHzzRRgkw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_BtogM3p3Ee-T4NHzzRRgkw" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_BtogNHp3Ee-T4NHzzRRgkw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_BtogNXp3Ee-T4NHzzRRgkw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_BtogNnp3Ee-T4NHzzRRgkw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_BtogN3p3Ee-T4NHzzRRgkw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_BtogOHp3Ee-T4NHzzRRgkw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_BtogOXp3Ee-T4NHzzRRgkw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="AgenziaViaggi.uml#_Btn5IHp3Ee-T4NHzzRRgkw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BtogMXp3Ee-T4NHzzRRgkw" x="60" y="660" width="81" height="161"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_WSEqEXp2Ee-T4NHzzRRgkw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_WSEqEnp2Ee-T4NHzzRRgkw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_WSEqE3p2Ee-T4NHzzRRgkw" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+    <owner xmi:type="uml:Model" href="AgenziaViaggi.uml#_Uo2CcHp2Ee-T4NHzzRRgkw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="AgenziaViaggi.uml#_Uo2CcHp2Ee-T4NHzzRRgkw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_MwNnYHp4Ee-T4NHzzRRgkw" type="Include_Edge" source="_VG_hkHp3Ee-T4NHzzRRgkw" target="_WlcckHp3Ee-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MwNnY3p4Ee-T4NHzzRRgkw" type="Include_KeywordLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MwNnZHp4Ee-T4NHzzRRgkw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MwNnZXp4Ee-T4NHzzRRgkw" type="Include_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MwNnZnp4Ee-T4NHzzRRgkw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MwNnYXp4Ee-T4NHzzRRgkw"/>
+    <element xmi:type="uml:Include" href="AgenziaViaggi.uml#_MwHgwHp4Ee-T4NHzzRRgkw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MwNnYnp4Ee-T4NHzzRRgkw" points="[800, 711, -643984, -643984]$[960, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MwZNkHp4Ee-T4NHzzRRgkw" id="(0.7763401109057301,0.07801418439716312)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MwZNkXp4Ee-T4NHzzRRgkw" id="(0.0,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_NdNQQHp4Ee-T4NHzzRRgkw" type="Include_Edge" source="_VG_hkHp3Ee-T4NHzzRRgkw" target="_jPqscHp3Ee-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NdN3UHp4Ee-T4NHzzRRgkw" type="Include_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_NzEykHp4Ee-T4NHzzRRgkw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NdN3UXp4Ee-T4NHzzRRgkw" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_NdN3Unp4Ee-T4NHzzRRgkw" type="Include_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_NzLgQHp4Ee-T4NHzzRRgkw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_NdN3U3p4Ee-T4NHzzRRgkw" x="-1" y="-17"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_NdNQQXp4Ee-T4NHzzRRgkw"/>
+    <element xmi:type="uml:Include" href="AgenziaViaggi.uml#_NdIXwHp4Ee-T4NHzzRRgkw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NdNQQnp4Ee-T4NHzzRRgkw" points="[918, 780, -643984, -643984]$[960, 700, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NdZdgHp4Ee-T4NHzzRRgkw" id="(0.9944547134935305,0.5673758865248227)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NdZdgXp4Ee-T4NHzzRRgkw" id="(0.0,0.5)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_VRx_0Hp4Ee-T4NHzzRRgkw" type="Association_Edge" source="_AzWCMHp3Ee-T4NHzzRRgkw" target="_Flil4Hp3Ee-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_VRx_03p4Ee-T4NHzzRRgkw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VRx_1Hp4Ee-T4NHzzRRgkw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VRx_1Xp4Ee-T4NHzzRRgkw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VRx_1np4Ee-T4NHzzRRgkw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_VRx_0Xp4Ee-T4NHzzRRgkw"/>
+    <element xmi:type="uml:Association" href="AgenziaViaggi.uml#_VRwKoHp4Ee-T4NHzzRRgkw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VRx_0np4Ee-T4NHzzRRgkw" points="[60, 340, -643984, -643984]$[360, 201, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VR-NEHp4Ee-T4NHzzRRgkw" id="(1.0,0.4968944099378882)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VR-NEXp4Ee-T4NHzzRRgkw" id="(0.0,0.5061728395061729)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_WV1d0Hp4Ee-T4NHzzRRgkw" type="Association_Edge" source="_AzWCMHp3Ee-T4NHzzRRgkw" target="_HQqq8Hp3Ee-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_WV1d03p4Ee-T4NHzzRRgkw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WV1d1Hp4Ee-T4NHzzRRgkw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WV1d1Xp4Ee-T4NHzzRRgkw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WV1d1np4Ee-T4NHzzRRgkw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_WV1d0Xp4Ee-T4NHzzRRgkw"/>
+    <element xmi:type="uml:Association" href="AgenziaViaggi.uml#_WV0PsHp4Ee-T4NHzzRRgkw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WV1d0np4Ee-T4NHzzRRgkw" points="[141, 360, -643984, -643984]$[360, 351, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WWBrEHp4Ee-T4NHzzRRgkw" id="(1.0,0.7453416149068323)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WWBrEXp4Ee-T4NHzzRRgkw" id="(0.0,0.504950495049505)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZQ6H0Hp4Ee-T4NHzzRRgkw" type="Association_Edge" source="_BtogMHp3Ee-T4NHzzRRgkw" target="_JpCQgHp3Ee-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZQ6H03p4Ee-T4NHzzRRgkw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZQ6H1Hp4Ee-T4NHzzRRgkw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZQ6H1Xp4Ee-T4NHzzRRgkw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZQ6H1np4Ee-T4NHzzRRgkw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZQ6H0Xp4Ee-T4NHzzRRgkw"/>
+    <element xmi:type="uml:Association" href="AgenziaViaggi.uml#_ZQ45sHp4Ee-T4NHzzRRgkw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZQ6H0np4Ee-T4NHzzRRgkw" points="[141, 740, -643984, -643984]$[389, 540, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZRIKQHp4Ee-T4NHzzRRgkw" id="(1.0,0.4968944099378882)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZRIKQXp4Ee-T4NHzzRRgkw" id="(0.024930747922437674,0.6611570247933884)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_aRAS4Xp4Ee-T4NHzzRRgkw" type="Association_Edge" source="_BtogMHp3Ee-T4NHzzRRgkw" target="_VG_hkHp3Ee-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_aRAS5Hp4Ee-T4NHzzRRgkw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_aRAS5Xp4Ee-T4NHzzRRgkw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aRAS5np4Ee-T4NHzzRRgkw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_aRAS53p4Ee-T4NHzzRRgkw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_aRAS4np4Ee-T4NHzzRRgkw"/>
+    <element xmi:type="uml:Association" href="AgenziaViaggi.uml#_aQ_r0Hp4Ee-T4NHzzRRgkw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aRAS43p4Ee-T4NHzzRRgkw" points="[141, 760, -643984, -643984]$[380, 770, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aRNHMHp4Ee-T4NHzzRRgkw" id="(1.0,0.6211180124223602)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aRNHMXp4Ee-T4NHzzRRgkw" id="(0.0,0.49645390070921985)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_J7TykHtDEe-5LqABJzga2w" type="Include_Edge" source="_VG_hkHp3Ee-T4NHzzRRgkw" target="_mnwpoHp3Ee-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_J7UZoHtDEe-5LqABJzga2w" type="Include_KeywordLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_J7VAsHtDEe-5LqABJzga2w" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_J7VAsXtDEe-5LqABJzga2w" type="Include_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_J7VAsntDEe-5LqABJzga2w" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_J7TykXtDEe-5LqABJzga2w"/>
+    <element xmi:type="uml:Include" href="AgenziaViaggi.uml#_J7Cs0HtDEe-5LqABJzga2w"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_J7TykntDEe-5LqABJzga2w" points="[640, 840, -643984, -643984]$[632, 1020, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J7xsoHtDEe-5LqABJzga2w" id="(0.4805914972273567,0.9929078014184397)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J7xsoXtDEe-5LqABJzga2w" id="(0.4989247311827957,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_KidSIHtDEe-5LqABJzga2w" type="Include_Edge" source="_VG_hkHp3Ee-T4NHzzRRgkw" target="_onOnAHp3Ee-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KidSI3tDEe-5LqABJzga2w" type="Include_KeywordLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_KidSJHtDEe-5LqABJzga2w" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KidSJXtDEe-5LqABJzga2w" type="Include_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_KidSJntDEe-5LqABJzga2w" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KidSIXtDEe-5LqABJzga2w"/>
+    <element xmi:type="uml:Include" href="AgenziaViaggi.uml#_KiQd0HtDEe-5LqABJzga2w"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KidSIntDEe-5LqABJzga2w" points="[820, 825, -643984, -643984]$[1040, 1026, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ki1soHtDEe-5LqABJzga2w" id="(0.8133086876155268,0.8865248226950354)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ki1soXtDEe-5LqABJzga2w" id="(0.2603036876355748,0.0594059405940594)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_LKNOoHtDEe-5LqABJzga2w" type="Include_Edge" source="_VG_hkHp3Ee-T4NHzzRRgkw" target="_sLOSMHp3Ee-T4NHzzRRgkw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LKN1sHtDEe-5LqABJzga2w" type="Include_KeywordLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LKN1sXtDEe-5LqABJzga2w" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LKN1sntDEe-5LqABJzga2w" type="Include_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LKN1s3tDEe-5LqABJzga2w" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_LKNOoXtDEe-5LqABJzga2w"/>
+    <element xmi:type="uml:Include" href="AgenziaViaggi.uml#_LKC2kHtDEe-5LqABJzga2w"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LKNOontDEe-5LqABJzga2w" points="[880, 807, -643984, -643984]$[1600, 1020, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LKkbAHtDEe-5LqABJzga2w" id="(0.9242144177449169,0.7588652482269503)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LKkbAXtDEe-5LqABJzga2w" id="(0.43383947939262474,0.0)"/>
+  </edges>
+</notation:Diagram>

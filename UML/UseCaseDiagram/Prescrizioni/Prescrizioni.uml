@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_fiOZEHpxEe-T4NHzzRRgkw" name="Prescrizioni">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_fjAcMHpxEe-T4NHzzRRgkw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_lLw0cHpxEe-T4NHzzRRgkw" name="Package2">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_4pfYcHpxEe-T4NHzzRRgkw" name="Prescrizione ricetta"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_6fhF8HpxEe-T4NHzzRRgkw" name="Prescrizione Esami/Visite">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Esvu8HpyEe-T4NHzzRRgkw" general="_4pfYcHpxEe-T4NHzzRRgkw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_BF9OcHpyEe-T4NHzzRRgkw" name="Prescrizione medicinali">
+      <generalization xmi:type="uml:Generalization" xmi:id="_FugG4HpyEe-T4NHzzRRgkw" general="_4pfYcHpxEe-T4NHzzRRgkw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_LCjacHpyEe-T4NHzzRRgkw" name="Prescrizione terapia temporanea">
+      <extend xmi:type="uml:Extend" xmi:id="_0ZGr4HpyEe-T4NHzzRRgkw" extendedCase="_OTiDAHpyEe-T4NHzzRRgkw" extensionLocation="_0ZGr4XpyEe-T4NHzzRRgkw"/>
+      <include xmi:type="uml:Include" xmi:id="_vpuysHpyEe-T4NHzzRRgkw" addition="_BF9OcHpyEe-T4NHzzRRgkw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_OTiDAHpyEe-T4NHzzRRgkw" name="Prenotazione urgente medico">
+      <generalization xmi:type="uml:Generalization" xmi:id="_s1fwgHpyEe-T4NHzzRRgkw" general="_QJsTYHpyEe-T4NHzzRRgkw"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_0ZGr4XpyEe-T4NHzzRRgkw" name="Prescrizione terapia urgente"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_QJsTYHpyEe-T4NHzzRRgkw" name="Prenotazione esami" isAbstract="true"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Rhga4HpyEe-T4NHzzRRgkw" name="Prenotazione paziente">
+      <generalization xmi:type="uml:Generalization" xmi:id="_tV2EgHpyEe-T4NHzzRRgkw" general="_QJsTYHpyEe-T4NHzzRRgkw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_MpE24HpzEe-T4NHzzRRgkw" name="Ritiro medicinali"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_lrHp8HpxEe-T4NHzzRRgkw" name="Medico"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_oC3kcHpxEe-T4NHzzRRgkw" name="Specialista">
+    <generalization xmi:type="uml:Generalization" xmi:id="_3ioeEHpxEe-T4NHzzRRgkw" general="_lrHp8HpxEe-T4NHzzRRgkw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_pI1G8HpxEe-T4NHzzRRgkw" name="Base">
+    <generalization xmi:type="uml:Generalization" xmi:id="_2wf2gHpxEe-T4NHzzRRgkw" general="_lrHp8HpxEe-T4NHzzRRgkw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_DkK9UHpyEe-T4NHzzRRgkw" memberEnd="_DkLkYnpyEe-T4NHzzRRgkw _DkLkY3pyEe-T4NHzzRRgkw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DkLkYHpyEe-T4NHzzRRgkw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DkLkYXpyEe-T4NHzzRRgkw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DkLkYnpyEe-T4NHzzRRgkw" name="prescrizione ricetta" type="_4pfYcHpxEe-T4NHzzRRgkw" association="_DkK9UHpyEe-T4NHzzRRgkw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DkLkY3pyEe-T4NHzzRRgkw" name="medico" type="_lrHp8HpxEe-T4NHzzRRgkw" association="_DkK9UHpyEe-T4NHzzRRgkw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qZdL4HpyEe-T4NHzzRRgkw" memberEnd="_qZdy8npyEe-T4NHzzRRgkw _qZeaAHpyEe-T4NHzzRRgkw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qZdy8HpyEe-T4NHzzRRgkw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qZdy8XpyEe-T4NHzzRRgkw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qZdy8npyEe-T4NHzzRRgkw" name="prenotazione urgente medico" type="_OTiDAHpyEe-T4NHzzRRgkw" association="_qZdL4HpyEe-T4NHzzRRgkw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qZeaAHpyEe-T4NHzzRRgkw" name="specialista" type="_oC3kcHpxEe-T4NHzzRRgkw" association="_qZdL4HpyEe-T4NHzzRRgkw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Rld4YHpzEe-T4NHzzRRgkw" name="Paziente"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_TuLRUHpzEe-T4NHzzRRgkw" memberEnd="_TuL4YnpzEe-T4NHzzRRgkw _TuL4Y3pzEe-T4NHzzRRgkw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TuL4YHpzEe-T4NHzzRRgkw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TuL4YXpzEe-T4NHzzRRgkw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TuL4YnpzEe-T4NHzzRRgkw" name="ritiro medicinali" type="_MpE24HpzEe-T4NHzzRRgkw" association="_TuLRUHpzEe-T4NHzzRRgkw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_TuL4Y3pzEe-T4NHzzRRgkw" name="paziente" type="_Rld4YHpzEe-T4NHzzRRgkw" association="_TuLRUHpzEe-T4NHzzRRgkw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_UtCtUHpzEe-T4NHzzRRgkw" memberEnd="_UtCtU3pzEe-T4NHzzRRgkw _UtCtVHpzEe-T4NHzzRRgkw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UtCtUXpzEe-T4NHzzRRgkw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UtCtUnpzEe-T4NHzzRRgkw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UtCtU3pzEe-T4NHzzRRgkw" name="prenotazione paziente" type="_Rhga4HpyEe-T4NHzzRRgkw" association="_UtCtUHpzEe-T4NHzzRRgkw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_UtCtVHpzEe-T4NHzzRRgkw" name="paziente" type="_Rld4YHpzEe-T4NHzzRRgkw" association="_UtCtUHpzEe-T4NHzzRRgkw"/>
+  </packagedElement>
+</uml:Model>

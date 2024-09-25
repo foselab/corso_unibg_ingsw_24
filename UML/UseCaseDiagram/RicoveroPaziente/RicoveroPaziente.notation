@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_WuVHEHpcEe-L54CSzIguJw" type="UseCase" name="UseCaseRicoveroPaziente" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_XuYO0HpcEe-L54CSzIguJw" type="Package_Shape" fontHeight="14">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XuYO0npcEe-L54CSzIguJw" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_XuYO03pcEe-L54CSzIguJw" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_zrMfAHpcEe-L54CSzIguJw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zrMfAnpcEe-L54CSzIguJw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_zrMfA3pcEe-L54CSzIguJw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zrMfBHpcEe-L54CSzIguJw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_zrMfBXpcEe-L54CSzIguJw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_zrMfBnpcEe-L54CSzIguJw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_zrMfB3pcEe-L54CSzIguJw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zrMfCHpcEe-L54CSzIguJw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="RicoveroPaziente.uml#_zrJbsHpcEe-L54CSzIguJw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zrMfAXpcEe-L54CSzIguJw" x="694" y="190" width="321" height="101"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_2U0zsHpcEe-L54CSzIguJw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_2U0zsnpcEe-L54CSzIguJw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_2U0zs3pcEe-L54CSzIguJw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2U0ztHpcEe-L54CSzIguJw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_2U0ztXpcEe-L54CSzIguJw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_2U0ztnpcEe-L54CSzIguJw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_2U0zt3pcEe-L54CSzIguJw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2U0zuHpcEe-L54CSzIguJw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="RicoveroPaziente.uml#_2Uv7MHpcEe-L54CSzIguJw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2U0zsXpcEe-L54CSzIguJw" x="94" y="230" width="281" height="101"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_6700AHpcEe-L54CSzIguJw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_6700AnpcEe-L54CSzIguJw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_6700A3pcEe-L54CSzIguJw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_6700BHpcEe-L54CSzIguJw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_6700BXpcEe-L54CSzIguJw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_6700BnpcEe-L54CSzIguJw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_6700B3pcEe-L54CSzIguJw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6700CHpcEe-L54CSzIguJw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="RicoveroPaziente.uml#_67xJoHpcEe-L54CSzIguJw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6700AXpcEe-L54CSzIguJw" x="414" y="350" width="281" height="101"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_FTcvIHpdEe-L54CSzIguJw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_FTcvInpdEe-L54CSzIguJw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_FTcvI3pdEe-L54CSzIguJw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_FTcvJHpdEe-L54CSzIguJw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_FTcvJXpdEe-L54CSzIguJw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_FTcvJnpdEe-L54CSzIguJw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_FTcvJ3pdEe-L54CSzIguJw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FTcvKHpdEe-L54CSzIguJw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="RicoveroPaziente.uml#_FTYdsHpdEe-L54CSzIguJw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FTcvIXpdEe-L54CSzIguJw" x="14" y="490" width="466" height="121"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_GyI6sHpdEe-L54CSzIguJw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_GyI6snpdEe-L54CSzIguJw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_GyI6s3pdEe-L54CSzIguJw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_GyI6tHpdEe-L54CSzIguJw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_GyI6tXpdEe-L54CSzIguJw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_GyI6tnpdEe-L54CSzIguJw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_GyI6t3pdEe-L54CSzIguJw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GyI6uHpdEe-L54CSzIguJw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="RicoveroPaziente.uml#_GyEpQHpdEe-L54CSzIguJw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GyI6sXpdEe-L54CSzIguJw" x="614" y="490" width="436" height="121"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_LkvuEHpdEe-L54CSzIguJw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_LkvuEnpdEe-L54CSzIguJw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_LkvuE3pdEe-L54CSzIguJw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LkvuFHpdEe-L54CSzIguJw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_LkvuFXpdEe-L54CSzIguJw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_LkvuFnpdEe-L54CSzIguJw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_LkvuF3pdEe-L54CSzIguJw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LkvuGHpdEe-L54CSzIguJw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="RicoveroPaziente.uml#_LkrcoHpdEe-L54CSzIguJw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LkvuEXpdEe-L54CSzIguJw" x="134" y="710" width="261" height="81"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Qkb7MHpdEe-L54CSzIguJw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Qkb7MnpdEe-L54CSzIguJw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Qkb7M3pdEe-L54CSzIguJw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Qkb7NHpdEe-L54CSzIguJw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_Qkb7NXpdEe-L54CSzIguJw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_Qkb7NnpdEe-L54CSzIguJw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_Qkb7N3pdEe-L54CSzIguJw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qkb7OHpdEe-L54CSzIguJw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="RicoveroPaziente.uml#_QkXpwHpdEe-L54CSzIguJw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qkb7MXpdEe-L54CSzIguJw" x="514" y="690" width="340" height="81"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ZO80QHpdEe-L54CSzIguJw" type="UseCase_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ZO80QnpdEe-L54CSzIguJw" type="UseCase_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ZO80Q3pdEe-L54CSzIguJw" type="UseCase_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ZO80RHpdEe-L54CSzIguJw" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_ZO9bUHpdEe-L54CSzIguJw" type="UseCase_ExtensionPointCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_ZO9bUXpdEe-L54CSzIguJw"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_ZO9bUnpdEe-L54CSzIguJw"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZO9bU3pdEe-L54CSzIguJw"/>
+        </children>
+        <element xmi:type="uml:UseCase" href="RicoveroPaziente.uml#_ZO3UsHpdEe-L54CSzIguJw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZO80QXpdEe-L54CSzIguJw" x="414" y="850" width="381" height="81"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_5h1s0HpdEe-L54CSzIguJw" type="Comment_Shape_CN" fontHeight="14">
+        <children xmi:type="notation:DecorationNode" xmi:id="_5h1s0npdEe-L54CSzIguJw" type="Comment_BodyLabel_CN"/>
+        <element xmi:type="uml:Comment" href="RicoveroPaziente.uml#_5hu_IHpdEe-L54CSzIguJw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5h1s0XpdEe-L54CSzIguJw" x="314" y="50"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XuYO1HpcEe-L54CSzIguJw"/>
+    </children>
+    <element xmi:type="uml:Package" href="RicoveroPaziente.uml#_XuXnwHpcEe-L54CSzIguJw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XuYO0XpcEe-L54CSzIguJw" x="640" y="60" width="1101" height="1041"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_aItjQXpcEe-L54CSzIguJw" type="Actor_Shape" fontHeight="14">
+    <children xmi:type="notation:DecorationNode" xmi:id="_aIuKUHpcEe-L54CSzIguJw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_aIuKUXpcEe-L54CSzIguJw" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aIuKUnpcEe-L54CSzIguJw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_aIuKU3pcEe-L54CSzIguJw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aIuKVHpcEe-L54CSzIguJw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_aIuKVXpcEe-L54CSzIguJw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aIuKVnpcEe-L54CSzIguJw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_aIuKV3pcEe-L54CSzIguJw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="RicoveroPaziente.uml#_aItjQHpcEe-L54CSzIguJw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aItjQnpcEe-L54CSzIguJw" x="1980" y="240" width="81" height="130"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_jbk1wHpcEe-L54CSzIguJw" type="Actor_Shape" fontHeight="14">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jbk1wnpcEe-L54CSzIguJw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jbk1w3pcEe-L54CSzIguJw" x="-80" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jbk1xHpcEe-L54CSzIguJw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jbk1xXpcEe-L54CSzIguJw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jbk1xnpcEe-L54CSzIguJw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jbk1x3pcEe-L54CSzIguJw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jbk1yHpcEe-L54CSzIguJw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jbk1yXpcEe-L54CSzIguJw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="RicoveroPaziente.uml#_jbkOsHpcEe-L54CSzIguJw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jbk1wXpcEe-L54CSzIguJw" x="200" y="200" width="81" height="150"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_mEtbMHpcEe-L54CSzIguJw" type="Actor_Shape" fontHeight="14">
+    <children xmi:type="notation:DecorationNode" xmi:id="_mEuCQHpcEe-L54CSzIguJw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mEuCQXpcEe-L54CSzIguJw" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mEuCQnpcEe-L54CSzIguJw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mEuCQ3pcEe-L54CSzIguJw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mEuCRHpcEe-L54CSzIguJw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mEuCRXpcEe-L54CSzIguJw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mEuCRnpcEe-L54CSzIguJw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mEuCR3pcEe-L54CSzIguJw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="RicoveroPaziente.uml#_mEs0IHpcEe-L54CSzIguJw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mEtbMXpcEe-L54CSzIguJw" x="120" y="740" width="81" height="150"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_nVH6MHpcEe-L54CSzIguJw" type="Actor_Shape" fontHeight="14">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nVIhQHpcEe-L54CSzIguJw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nVIhQXpcEe-L54CSzIguJw" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nVIhQnpcEe-L54CSzIguJw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nVIhQ3pcEe-L54CSzIguJw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nVIhRHpcEe-L54CSzIguJw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nVIhRXpcEe-L54CSzIguJw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nVIhRnpcEe-L54CSzIguJw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nVIhR3pcEe-L54CSzIguJw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="RicoveroPaziente.uml#_nVHTIHpcEe-L54CSzIguJw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nVH6MXpcEe-L54CSzIguJw" x="360" y="480" width="81" height="150"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_WuVHEXpcEe-L54CSzIguJw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_WuVHEnpcEe-L54CSzIguJw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_WuVHE3pcEe-L54CSzIguJw" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+    <owner xmi:type="uml:Model" href="RicoveroPaziente.uml#_Skfj4HpcEe-L54CSzIguJw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="RicoveroPaziente.uml#_Skfj4HpcEe-L54CSzIguJw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_fMLnsHpdEe-L54CSzIguJw" type="Generalization_Edge" source="_nVH6MHpcEe-L54CSzIguJw" target="_jbk1wHpcEe-L54CSzIguJw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fMMOwHpdEe-L54CSzIguJw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fMMOwXpdEe-L54CSzIguJw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_fMLnsXpdEe-L54CSzIguJw"/>
+    <element xmi:type="uml:Generalization" href="RicoveroPaziente.uml#_fMGIIHpdEe-L54CSzIguJw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fMLnsnpdEe-L54CSzIguJw" points="[360, 540, -643984, -643984]$[240, 350, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fMXN4HpdEe-L54CSzIguJw" id="(0.0,0.4)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fMXN4XpdEe-L54CSzIguJw" id="(0.49382716049382713,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_gJEtwHpdEe-L54CSzIguJw" type="Generalization_Edge" source="_mEtbMHpcEe-L54CSzIguJw" target="_jbk1wHpcEe-L54CSzIguJw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_gJEtw3pdEe-L54CSzIguJw" type="Generalization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_gJEtxHpdEe-L54CSzIguJw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_gJEtwXpdEe-L54CSzIguJw"/>
+    <element xmi:type="uml:Generalization" href="RicoveroPaziente.uml#_gI_OMHpdEe-L54CSzIguJw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_gJEtwnpdEe-L54CSzIguJw" points="[120, 780, -643984, -643984]$[240, 350, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gJPs4HpdEe-L54CSzIguJw" id="(0.0,0.26666666666666666)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gJPs4XpdEe-L54CSzIguJw" id="(0.49382716049382713,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_hbAPsHpdEe-L54CSzIguJw" type="Generalization_Edge" source="_Qkb7MHpdEe-L54CSzIguJw" target="_LkvuEHpdEe-L54CSzIguJw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hbAPs3pdEe-L54CSzIguJw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_vlNroHpdEe-L54CSzIguJw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hbAPtHpdEe-L54CSzIguJw" y="-19"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_hbAPsXpdEe-L54CSzIguJw"/>
+    <element xmi:type="uml:Generalization" href="RicoveroPaziente.uml#_ha5iAHpdEe-L54CSzIguJw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hbAPsnpdEe-L54CSzIguJw" points="[1180, 839, -643984, -643984]$[1040, 855, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hbNEAHpdEe-L54CSzIguJw" id="(0.0,0.5061728395061729)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hbNEAXpdEe-L54CSzIguJw" id="(0.9961685823754789,0.43209876543209874)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_iPzwwHpdEe-L54CSzIguJw" type="Generalization_Edge" source="_ZO80QHpdEe-L54CSzIguJw" target="_LkvuEHpdEe-L54CSzIguJw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_iP0X0HpdEe-L54CSzIguJw" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_u7ojIHpdEe-L54CSzIguJw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_iP0X0XpdEe-L54CSzIguJw" y="-19"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_iPzwwXpdEe-L54CSzIguJw"/>
+    <element xmi:type="uml:Generalization" href="RicoveroPaziente.uml#_iPuRMHpdEe-L54CSzIguJw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iPzwwnpdEe-L54CSzIguJw" points="[1160, 941, -643984, -643984]$[1040, 855, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iQBMIHpdEe-L54CSzIguJw" id="(0.10498687664041995,0.18518518518518517)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iQBMIXpdEe-L54CSzIguJw" id="(0.9195402298850575,0.7654320987654321)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_j29UwHpdEe-L54CSzIguJw" type="Include_Edge" source="_FTcvIHpdEe-L54CSzIguJw" target="_GyI6sHpdEe-L54CSzIguJw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_j2970HpdEe-L54CSzIguJw" type="Include_KeywordLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_j2970XpdEe-L54CSzIguJw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_j2970npdEe-L54CSzIguJw" type="Include_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_j29703pdEe-L54CSzIguJw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_j29UwXpdEe-L54CSzIguJw"/>
+    <element xmi:type="uml:Include" href="RicoveroPaziente.uml#_j231MHpdEe-L54CSzIguJw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j29UwnpdEe-L54CSzIguJw" points="[1080, 696, -643984, -643984]$[1260, 661, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j3KwIHpdEe-L54CSzIguJw" id="(1.0,0.49586776859504134)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_j3KwIXpdEe-L54CSzIguJw" id="(0.0,0.5041322314049587)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_mRWTkHpdEe-L54CSzIguJw" type="Include_Edge" source="_2U0zsHpcEe-L54CSzIguJw" target="_6700AHpcEe-L54CSzIguJw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_mRWTk3pdEe-L54CSzIguJw" type="Include_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_B-MOEHpeEe-L54CSzIguJw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mRWTlHpdEe-L54CSzIguJw" x="-1" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mRWTlXpdEe-L54CSzIguJw" type="Include_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_B_LskHpeEe-L54CSzIguJw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mRWTlnpdEe-L54CSzIguJw" x="1" y="-18"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_mRWTkXpdEe-L54CSzIguJw"/>
+    <element xmi:type="uml:Include" href="RicoveroPaziente.uml#_mRQM8HpdEe-L54CSzIguJw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mRWTknpdEe-L54CSzIguJw" points="[960, 280, -643984, -643984]$[1080, 404, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mRju8HpdEe-L54CSzIguJw" id="(0.5693950177935944,0.9900990099009901)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mRju8XpdEe-L54CSzIguJw" id="(0.0711743772241993,0.2376237623762376)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_z4_1AHpdEe-L54CSzIguJw" type="Extend_Edge" source="_zrMfAHpcEe-L54CSzIguJw" target="_2U0zsHpcEe-L54CSzIguJw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_z4_1A3pdEe-L54CSzIguJw" type="Extend_KeywordLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_CWI0AHpeEe-L54CSzIguJw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_z5AcEHpdEe-L54CSzIguJw" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_z5AcEXpdEe-L54CSzIguJw" type="Extend_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_CXF2QHpeEe-L54CSzIguJw" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_z5AcEnpdEe-L54CSzIguJw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_z4_1AXpdEe-L54CSzIguJw"/>
+    <element xmi:type="uml:Extend" href="RicoveroPaziente.uml#_z45uYHpdEe-L54CSzIguJw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_z4_1AnpdEe-L54CSzIguJw" points="[1323, 220, -643984, -643984]$[1077, 220, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z5PFkHpdEe-L54CSzIguJw" id="(0.009345794392523364,0.39603960396039606)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_z5PFkXpdEe-L54CSzIguJw" id="(0.9857651245551602,0.39603960396039606)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Ju_38HpeEe-L54CSzIguJw" type="Association_Edge" source="_aItjQXpcEe-L54CSzIguJw" target="_zrMfAHpcEe-L54CSzIguJw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ju_383peEe-L54CSzIguJw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JvAfAHpeEe-L54CSzIguJw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_JvAfAXpeEe-L54CSzIguJw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_JvAfAnpeEe-L54CSzIguJw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Ju_38XpeEe-L54CSzIguJw"/>
+    <element xmi:type="uml:Association" href="RicoveroPaziente.uml#_Ju-p0HpeEe-L54CSzIguJw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ju_38npeEe-L54CSzIguJw" points="[1980, 320, -643984, -643984]$[1657, 340, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jw_cAHpeEe-L54CSzIguJw" id="(0.0,0.6153846153846154)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Jw_cAXpeEe-L54CSzIguJw" id="(0.9875389408099688,0.39603960396039606)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Kunh4XpeEe-L54CSzIguJw" type="Association_Edge" source="_jbk1wHpcEe-L54CSzIguJw" target="_2U0zsHpcEe-L54CSzIguJw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Kunh5HpeEe-L54CSzIguJw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Kunh5XpeEe-L54CSzIguJw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Kunh5npeEe-L54CSzIguJw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Kunh53peEe-L54CSzIguJw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Kunh4npeEe-L54CSzIguJw"/>
+    <element xmi:type="uml:Association" href="RicoveroPaziente.uml#_Kum60HpeEe-L54CSzIguJw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Kunh43peEe-L54CSzIguJw" points="[281, 260, -643984, -643984]$[743, 380, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kwl30HpeEe-L54CSzIguJw" id="(1.0,0.4)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kwl30XpeEe-L54CSzIguJw" id="(0.010676156583629894,0.39603960396039606)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_LtiBMHpeEe-L54CSzIguJw" type="Association_Edge" source="_nVH6MHpcEe-L54CSzIguJw" target="_FTcvIHpdEe-L54CSzIguJw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LtiBM3peEe-L54CSzIguJw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LtiBNHpeEe-L54CSzIguJw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LtiBNXpeEe-L54CSzIguJw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LtiBNnpeEe-L54CSzIguJw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_LtiBMXpeEe-L54CSzIguJw"/>
+    <element xmi:type="uml:Association" href="RicoveroPaziente.uml#_LtgzEHpeEe-L54CSzIguJw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LtiBMnpeEe-L54CSzIguJw" points="[441, 580, -643984, -643984]$[673, 640, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lvd64HpeEe-L54CSzIguJw" id="(1.0,0.6666666666666666)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Lvd64XpeEe-L54CSzIguJw" id="(0.027896995708154508,0.3305785123966942)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_MmhesHpeEe-L54CSzIguJw" type="Association_Edge" source="_mEtbMHpcEe-L54CSzIguJw" target="_LkvuEHpdEe-L54CSzIguJw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Mmhes3peEe-L54CSzIguJw" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MmhetHpeEe-L54CSzIguJw" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MmhetXpeEe-L54CSzIguJw" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MmhetnpeEe-L54CSzIguJw" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MmhesXpeEe-L54CSzIguJw"/>
+    <element xmi:type="uml:Association" href="RicoveroPaziente.uml#_Mmg3oHpeEe-L54CSzIguJw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MmhesnpeEe-L54CSzIguJw" points="[201, 840, -643984, -643984]$[797, 840, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MofNkHpeEe-L54CSzIguJw" id="(1.0,0.6666666666666666)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MofNkXpeEe-L54CSzIguJw" id="(0.06513409961685823,0.24691358024691357)"/>
+  </edges>
+</notation:Diagram>

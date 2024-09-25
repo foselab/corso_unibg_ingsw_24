@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Uo2CcHp2Ee-T4NHzzRRgkw" name="AgenziaViaggi">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_UpQSIHp2Ee-T4NHzzRRgkw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_-P6cIHp2Ee-T4NHzzRRgkw" name="PrenotazioneViaggio">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_FlgJoHp3Ee-T4NHzzRRgkw" name="Registrazione cliente"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_HQnnoHp3Ee-T4NHzzRRgkw" name="Pagamento"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Jo_NMHp3Ee-T4NHzzRRgkw" name="Sollecito cliente"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_VG73MHp3Ee-T4NHzzRRgkw" name="Prenotazione pacchetto completo">
+      <include xmi:type="uml:Include" xmi:id="_MwHgwHp4Ee-T4NHzzRRgkw" addition="_WlYLIHp3Ee-T4NHzzRRgkw"/>
+      <include xmi:type="uml:Include" xmi:id="_NdIXwHp4Ee-T4NHzzRRgkw" addition="_jPnpIHp3Ee-T4NHzzRRgkw"/>
+      <include xmi:type="uml:Include" xmi:id="_J7Cs0HtDEe-5LqABJzga2w" addition="_mnrKEHp3Ee-T4NHzzRRgkw"/>
+      <include xmi:type="uml:Include" xmi:id="_KiQd0HtDEe-5LqABJzga2w" addition="_onKVkHp3Ee-T4NHzzRRgkw"/>
+      <include xmi:type="uml:Include" xmi:id="_LKC2kHtDEe-5LqABJzga2w" addition="_sLIyoHp3Ee-T4NHzzRRgkw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_WlYLIHp3Ee-T4NHzzRRgkw" name="Prenotazione albergo"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_jPnpIHp3Ee-T4NHzzRRgkw" name="Prenotazione visita guidata"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_mnrKEHp3Ee-T4NHzzRRgkw" name="Prenotazione biglietto aereo"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_onKVkHp3Ee-T4NHzzRRgkw" name="Prenotazione biglietto treno"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_sLIyoHp3Ee-T4NHzzRRgkw" name="Prenotazione noleggio auto"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_AzVbIHp3Ee-T4NHzzRRgkw" name="Cliente"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Btn5IHp3Ee-T4NHzzRRgkw" name="Operatore"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VRwKoHp4Ee-T4NHzzRRgkw" memberEnd="_VRxYwHp4Ee-T4NHzzRRgkw _VRxYwXp4Ee-T4NHzzRRgkw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VRwxsHp4Ee-T4NHzzRRgkw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VRwxsXp4Ee-T4NHzzRRgkw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VRxYwHp4Ee-T4NHzzRRgkw" name="registrazione cliente" type="_FlgJoHp3Ee-T4NHzzRRgkw" association="_VRwKoHp4Ee-T4NHzzRRgkw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VRxYwXp4Ee-T4NHzzRRgkw" name="cliente" type="_AzVbIHp3Ee-T4NHzzRRgkw" association="_VRwKoHp4Ee-T4NHzzRRgkw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WV0PsHp4Ee-T4NHzzRRgkw" memberEnd="_WV02wXp4Ee-T4NHzzRRgkw _WV02wnp4Ee-T4NHzzRRgkw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WV0PsXp4Ee-T4NHzzRRgkw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WV02wHp4Ee-T4NHzzRRgkw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WV02wXp4Ee-T4NHzzRRgkw" name="pagamento" type="_HQnnoHp3Ee-T4NHzzRRgkw" association="_WV0PsHp4Ee-T4NHzzRRgkw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_WV02wnp4Ee-T4NHzzRRgkw" name="cliente" type="_AzVbIHp3Ee-T4NHzzRRgkw" association="_WV0PsHp4Ee-T4NHzzRRgkw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ZQ45sHp4Ee-T4NHzzRRgkw" memberEnd="_ZQ5gwnp4Ee-T4NHzzRRgkw _ZQ5gw3p4Ee-T4NHzzRRgkw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZQ5gwHp4Ee-T4NHzzRRgkw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZQ5gwXp4Ee-T4NHzzRRgkw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZQ5gwnp4Ee-T4NHzzRRgkw" name="sollecito cliente" type="_Jo_NMHp3Ee-T4NHzzRRgkw" association="_ZQ45sHp4Ee-T4NHzzRRgkw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ZQ5gw3p4Ee-T4NHzzRRgkw" name="operatore" type="_Btn5IHp3Ee-T4NHzzRRgkw" association="_ZQ45sHp4Ee-T4NHzzRRgkw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aQ_r0Hp4Ee-T4NHzzRRgkw" memberEnd="_aQ_r03p4Ee-T4NHzzRRgkw _aRAS4Hp4Ee-T4NHzzRRgkw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aQ_r0Xp4Ee-T4NHzzRRgkw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aQ_r0np4Ee-T4NHzzRRgkw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aQ_r03p4Ee-T4NHzzRRgkw" name="prenotazione pacchetto completo" type="_VG73MHp3Ee-T4NHzzRRgkw" association="_aQ_r0Hp4Ee-T4NHzzRRgkw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aRAS4Hp4Ee-T4NHzzRRgkw" name="operatore" type="_Btn5IHp3Ee-T4NHzzRRgkw" association="_aQ_r0Hp4Ee-T4NHzzRRgkw"/>
+  </packagedElement>
+</uml:Model>

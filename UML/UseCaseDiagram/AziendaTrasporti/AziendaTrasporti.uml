@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Y0708HphEe-L54CSzIguJw" name="AziendaTrasporti">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Y1Fl8HphEe-L54CSzIguJw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_osdHQHphEe-T4NHzzRRgkw" name="GestionePacchi">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_IFtzsHpjEe-T4NHzzRRgkw">
+      <body>Extension point:&#xD;
+Modificare la consegna&#xD;
+Condition:&#xD;
+utente non disponibile</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_NmWxwHpjEe-T4NHzzRRgkw">
+      <body>Extension point:&#xD;
+Modificare la consegna&#xD;
+Condition:&#xD;
+Imprevisto consegna non possibile</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_SISE0HpjEe-T4NHzzRRgkw">
+      <body>Extension point:&#xD;
+Aggiornamento consegne&#xD;
+Condition:&#xD;
+consegne non iniziate &amp; furgoni scarichi</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_UcTLUHpiEe-T4NHzzRRgkw" name="Tracciamento pacco"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_bjtS4HpiEe-T4NHzzRRgkw" name="Verifica data consegna">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_0xqJEHpiEe-T4NHzzRRgkw" name="Modificare la consegna"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_efwNQHpiEe-T4NHzzRRgkw" name="Modifica data consegna">
+      <extend xmi:type="uml:Extend" xmi:id="_0xpiAHpiEe-T4NHzzRRgkw" extendedCase="_bjtS4HpiEe-T4NHzzRRgkw" extensionLocation="_0xqJEHpiEe-T4NHzzRRgkw"/>
+      <extend xmi:type="uml:Extend" xmi:id="_1imd0HpiEe-T4NHzzRRgkw" extendedCase="_iBEX4HpiEe-T4NHzzRRgkw" extensionLocation="_1imd0XpiEe-T4NHzzRRgkw"/>
+      <extend xmi:type="uml:Extend" xmi:id="_2QZ_AHpiEe-T4NHzzRRgkw" extendedCase="_kESz4HpiEe-T4NHzzRRgkw" extensionLocation="_2QamEHpiEe-T4NHzzRRgkw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_iBEX4HpiEe-T4NHzzRRgkw" name="Visualizza elenco consegne">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_1imd0XpiEe-T4NHzzRRgkw" name="Modificare la consegna"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_kESz4HpiEe-T4NHzzRRgkw" name="Riprogrammazione consegne">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_2QamEHpiEe-T4NHzzRRgkw" name="Aggiornamento consegne"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_qiDW8HphEe-T4NHzzRRgkw" name="Dipendente" isAbstract="true"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_rhOU8HphEe-T4NHzzRRgkw" name="Utente"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_srJKYHphEe-T4NHzzRRgkw" name="Corriere">
+    <generalization xmi:type="uml:Generalization" xmi:id="_6pYm4HphEe-T4NHzzRRgkw" general="_qiDW8HphEe-T4NHzzRRgkw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_xsp8cHphEe-T4NHzzRRgkw" name="Responsabile logistica">
+    <generalization xmi:type="uml:Generalization" xmi:id="_TT5_4HpiEe-T4NHzzRRgkw" general="_qiDW8HphEe-T4NHzzRRgkw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3rUd0HpiEe-T4NHzzRRgkw" memberEnd="_3rVr8npiEe-T4NHzzRRgkw _3rW6EHpiEe-T4NHzzRRgkw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3rVr8HpiEe-T4NHzzRRgkw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3rVr8XpiEe-T4NHzzRRgkw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3rVr8npiEe-T4NHzzRRgkw" name="tracciamento pacco" type="_UcTLUHpiEe-T4NHzzRRgkw" association="_3rUd0HpiEe-T4NHzzRRgkw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_3rW6EHpiEe-T4NHzzRRgkw" name="utente" type="_rhOU8HphEe-T4NHzzRRgkw" association="_3rUd0HpiEe-T4NHzzRRgkw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4lws0HpiEe-T4NHzzRRgkw" memberEnd="_4lxT4XpiEe-T4NHzzRRgkw _4lxT4npiEe-T4NHzzRRgkw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4lws0XpiEe-T4NHzzRRgkw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4lxT4HpiEe-T4NHzzRRgkw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4lxT4XpiEe-T4NHzzRRgkw" name="verifica data consegna" type="_bjtS4HpiEe-T4NHzzRRgkw" association="_4lws0HpiEe-T4NHzzRRgkw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4lxT4npiEe-T4NHzzRRgkw" name="utente" type="_rhOU8HphEe-T4NHzzRRgkw" association="_4lws0HpiEe-T4NHzzRRgkw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_610D4HpiEe-T4NHzzRRgkw" memberEnd="_610q8npiEe-T4NHzzRRgkw _610q83piEe-T4NHzzRRgkw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_610q8HpiEe-T4NHzzRRgkw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_610q8XpiEe-T4NHzzRRgkw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_610q8npiEe-T4NHzzRRgkw" name="visualizza elenco consegne" type="_iBEX4HpiEe-T4NHzzRRgkw" association="_610D4HpiEe-T4NHzzRRgkw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_610q83piEe-T4NHzzRRgkw" name="corriere" type="_srJKYHphEe-T4NHzzRRgkw" association="_610D4HpiEe-T4NHzzRRgkw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7e7SUHpiEe-T4NHzzRRgkw" memberEnd="_7e75YnpiEe-T4NHzzRRgkw _7e75Y3piEe-T4NHzzRRgkw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7e75YHpiEe-T4NHzzRRgkw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7e75YXpiEe-T4NHzzRRgkw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7e75YnpiEe-T4NHzzRRgkw" name="riprogrammazione consegne" type="_kESz4HpiEe-T4NHzzRRgkw" association="_7e7SUHpiEe-T4NHzzRRgkw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7e75Y3piEe-T4NHzzRRgkw" name="responsabile logistica" type="_xsp8cHphEe-T4NHzzRRgkw" association="_7e7SUHpiEe-T4NHzzRRgkw"/>
+  </packagedElement>
+</uml:Model>
