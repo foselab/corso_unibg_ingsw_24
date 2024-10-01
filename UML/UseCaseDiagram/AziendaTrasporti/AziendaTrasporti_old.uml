@@ -28,25 +28,14 @@ consegne non iniziate &amp; furgoni scarichi</body>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_efwNQHpiEe-T4NHzzRRgkw" name="Modifica data consegna">
       <extend xmi:type="uml:Extend" xmi:id="_0xpiAHpiEe-T4NHzzRRgkw" extendedCase="_bjtS4HpiEe-T4NHzzRRgkw" extensionLocation="_0xqJEHpiEe-T4NHzzRRgkw"/>
+      <extend xmi:type="uml:Extend" xmi:id="_1imd0HpiEe-T4NHzzRRgkw" extendedCase="_iBEX4HpiEe-T4NHzzRRgkw" extensionLocation="_1imd0XpiEe-T4NHzzRRgkw"/>
+      <extend xmi:type="uml:Extend" xmi:id="_2QZ_AHpiEe-T4NHzzRRgkw" extendedCase="_kESz4HpiEe-T4NHzzRRgkw" extensionLocation="_2QamEHpiEe-T4NHzzRRgkw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_iBEX4HpiEe-T4NHzzRRgkw" name="Visualizza elenco consegne">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_1imd0XpiEe-T4NHzzRRgkw" name="Modificare la consegna"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_kESz4HpiEe-T4NHzzRRgkw" name="Riprogrammazione consegne">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_2QamEHpiEe-T4NHzzRRgkw" name="Aggiornamento consegne"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_DCHYsH_OEe-ZrJgvL8yQqA" name="Modifica data consegna corriere">
-      <extend xmi:type="uml:Extend" xmi:id="_DCHYsX_OEe-ZrJgvL8yQqA" extendedCase="_bjtS4HpiEe-T4NHzzRRgkw" extensionLocation="_0xqJEHpiEe-T4NHzzRRgkw"/>
-      <extend xmi:type="uml:Extend" xmi:id="_DCHYsn_OEe-ZrJgvL8yQqA" extendedCase="_iBEX4HpiEe-T4NHzzRRgkw" extensionLocation="_1imd0XpiEe-T4NHzzRRgkw"/>
-      <extend xmi:type="uml:Extend" xmi:id="_DCHYs3_OEe-ZrJgvL8yQqA" extendedCase="_kESz4HpiEe-T4NHzzRRgkw" extensionLocation="_2QamEHpiEe-T4NHzzRRgkw"/>
-      <extend xmi:type="uml:Extend" xmi:id="_1imd0HpiEe-T4NHzzRRgkw" extendedCase="_iBEX4HpiEe-T4NHzzRRgkw" extensionLocation="_1imd0XpiEe-T4NHzzRRgkw"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_eewUAH_OEe-ZrJgvL8yQqA" name="Modifica data consegna responsabile">
-      <extend xmi:type="uml:Extend" xmi:id="_eewUAX_OEe-ZrJgvL8yQqA" extendedCase="_bjtS4HpiEe-T4NHzzRRgkw" extensionLocation="_0xqJEHpiEe-T4NHzzRRgkw"/>
-      <extend xmi:type="uml:Extend" xmi:id="_eewUAn_OEe-ZrJgvL8yQqA" extendedCase="_iBEX4HpiEe-T4NHzzRRgkw" extensionLocation="_1imd0XpiEe-T4NHzzRRgkw"/>
-      <extend xmi:type="uml:Extend" xmi:id="_eewUA3_OEe-ZrJgvL8yQqA" extendedCase="_kESz4HpiEe-T4NHzzRRgkw" extensionLocation="_2QamEHpiEe-T4NHzzRRgkw"/>
-      <extend xmi:type="uml:Extend" xmi:id="_eewUBH_OEe-ZrJgvL8yQqA" extendedCase="_iBEX4HpiEe-T4NHzzRRgkw" extensionLocation="_1imd0XpiEe-T4NHzzRRgkw"/>
-      <extend xmi:type="uml:Extend" xmi:id="_2QZ_AHpiEe-T4NHzzRRgkw" extendedCase="_kESz4HpiEe-T4NHzzRRgkw" extensionLocation="_2QamEHpiEe-T4NHzzRRgkw"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_qiDW8HphEe-T4NHzzRRgkw" name="Dipendente" isAbstract="true"/>

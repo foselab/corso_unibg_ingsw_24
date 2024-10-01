@@ -13,7 +13,6 @@
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_LCjacHpyEe-T4NHzzRRgkw" name="Prescrizione terapia temporanea">
       <extend xmi:type="uml:Extend" xmi:id="_0ZGr4HpyEe-T4NHzzRRgkw" extendedCase="_OTiDAHpyEe-T4NHzzRRgkw" extensionLocation="_0ZGr4XpyEe-T4NHzzRRgkw"/>
-      <include xmi:type="uml:Include" xmi:id="_vpuysHpyEe-T4NHzzRRgkw" addition="_BF9OcHpyEe-T4NHzzRRgkw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_OTiDAHpyEe-T4NHzzRRgkw" name="Prenotazione urgente medico">
       <generalization xmi:type="uml:Generalization" xmi:id="_s1fwgHpyEe-T4NHzzRRgkw" general="_QJsTYHpyEe-T4NHzzRRgkw"/>

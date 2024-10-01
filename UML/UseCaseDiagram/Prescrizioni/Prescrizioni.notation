@@ -276,21 +276,6 @@
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tWHKQHpyEe-T4NHzzRRgkw" id="(0.3519061583577713,0.012345679012345678)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tWHKQXpyEe-T4NHzzRRgkw" id="(0.7476635514018691,0.9338842975206612)"/>
   </edges>
-  <edges xmi:type="notation:Connector" xmi:id="_vp1gYHpyEe-T4NHzzRRgkw" type="Include_Edge" source="_LCo6AHpyEe-T4NHzzRRgkw" target="_BGCG8HpyEe-T4NHzzRRgkw">
-    <children xmi:type="notation:DecorationNode" xmi:id="_vp2HcHpyEe-T4NHzzRRgkw" type="Include_KeywordLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_PAD8YHpzEe-T4NHzzRRgkw" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_vp2HcXpyEe-T4NHzzRRgkw" x="1" y="19"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_vp2HcnpyEe-T4NHzzRRgkw" type="Include_StereotypeLabel">
-      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_PAJb8HpzEe-T4NHzzRRgkw" name="IS_UPDATED_POSITION" booleanValue="true"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_vp2Hc3pyEe-T4NHzzRRgkw" x="-1" y="-18"/>
-    </children>
-    <styles xmi:type="notation:FontStyle" xmi:id="_vp1gYXpyEe-T4NHzzRRgkw"/>
-    <element xmi:type="uml:Include" href="Prescrizioni.uml#_vpuysHpyEe-T4NHzzRRgkw"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_vp1gYnpyEe-T4NHzzRRgkw" points="[860, 561, -643984, -643984]$[880, 459, -643984, -643984]"/>
-    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vqDi0HpyEe-T4NHzzRRgkw" id="(0.6213389121338913,0.009900990099009901)"/>
-    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vqDi0XpyEe-T4NHzzRRgkw" id="(0.38004750593824227,0.9753086419753086)"/>
-  </edges>
   <edges xmi:type="notation:Connector" xmi:id="_0ZMygHpyEe-T4NHzzRRgkw" type="Extend_Edge" source="_LCo6AHpyEe-T4NHzzRRgkw" target="_OToJoHpyEe-T4NHzzRRgkw">
     <children xmi:type="notation:DecorationNode" xmi:id="_0ZMyg3pyEe-T4NHzzRRgkw" type="Extend_KeywordLabel">
       <styles xmi:type="notation:BooleanValueStyle" xmi:id="_PAPikHpzEe-T4NHzzRRgkw" name="IS_UPDATED_POSITION" booleanValue="true"/>
