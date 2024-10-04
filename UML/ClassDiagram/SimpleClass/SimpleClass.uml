@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_fwmbkIItEe-ehvO-bgRcvA" name="SimpleClass">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_fz5nMIItEe-ehvO-bgRcvA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_o8NPgIItEe-ehvO-bgRcvA" name="WebStore">
+    <packagedElement xmi:type="uml:Class" xmi:id="_rf4tMIItEe-ehvO-bgRcvA" name="Cliente">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_xEamkIJKEe-uHtAlWEHn2A" name="codice">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zCWS4IJKEe-uHtAlWEHn2A" name="nome">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_67RW8IJKEe-uHtAlWEHn2A" name="cognome">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_swmuMIItEe-ehvO-bgRcvA" name="Catalogo"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_t00kQIItEe-ehvO-bgRcvA" name="Fattura">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zw5hIIItEe-ehvO-bgRcvA" name="cliente" type="_rf4tMIItEe-ehvO-bgRcvA" association="_zw12wIItEe-ehvO-bgRcvA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1Ig0UoItEe-ehvO-bgRcvA" name="prodotti" type="_u4kgQIItEe-ehvO-bgRcvA" association="_1IfmMIItEe-ehvO-bgRcvA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Fffp0IIuEe-ehvO-bgRcvA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GnUHUIJLEe-uHtAlWEHn2A" name="numero">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Mxl4QIJLEe-uHtAlWEHn2A" name="data">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_u4kgQIItEe-ehvO-bgRcvA" name="Prodotti">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_4LVFEYItEe-ehvO-bgRcvA" name="catalogo" type="_swmuMIItEe-ehvO-bgRcvA" association="_4LTP4IItEe-ehvO-bgRcvA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4LVsIIItEe-ehvO-bgRcvA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4LVsIYItEe-ehvO-bgRcvA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_VKbLcIJLEe-uHtAlWEHn2A" name="id">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_X54bUIJLEe-uHtAlWEHn2A" name="prezzoU">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zw12wIItEe-ehvO-bgRcvA" memberEnd="_zw5hIIItEe-ehvO-bgRcvA _zw7WUIItEe-ehvO-bgRcvA" navigableOwnedEnd="_zw7WUIItEe-ehvO-bgRcvA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zw4TAIItEe-ehvO-bgRcvA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zw4TAYItEe-ehvO-bgRcvA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zw7WUIItEe-ehvO-bgRcvA" name="fattura" type="_t00kQIItEe-ehvO-bgRcvA" association="_zw12wIItEe-ehvO-bgRcvA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KKYroIIuEe-ehvO-bgRcvA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KKfZUIIuEe-ehvO-bgRcvA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:AssociationClass" xmi:id="_1IfmMIItEe-ehvO-bgRcvA" name="Quantità" memberEnd="_1Ig0UoItEe-ehvO-bgRcvA _1IhbYIItEe-ehvO-bgRcvA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1Ig0UIItEe-ehvO-bgRcvA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1Ig0UYItEe-ehvO-bgRcvA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Q7VU0IJLEe-uHtAlWEHn2A" name="num">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1IhbYIItEe-ehvO-bgRcvA" name="fattura" type="_t00kQIItEe-ehvO-bgRcvA" association="_1IfmMIItEe-ehvO-bgRcvA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GN19kIIuEe-ehvO-bgRcvA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4LTP4IItEe-ehvO-bgRcvA" memberEnd="_4LVFEYItEe-ehvO-bgRcvA _4LVsIoItEe-ehvO-bgRcvA" navigableOwnedEnd="_4LVsIoItEe-ehvO-bgRcvA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4LUeAIItEe-ehvO-bgRcvA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4LVFEIItEe-ehvO-bgRcvA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4LVsIoItEe-ehvO-bgRcvA" name="prodotti" type="_u4kgQIItEe-ehvO-bgRcvA" aggregation="shared" association="_4LTP4IItEe-ehvO-bgRcvA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Atky8IIuEe-ehvO-bgRcvA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
