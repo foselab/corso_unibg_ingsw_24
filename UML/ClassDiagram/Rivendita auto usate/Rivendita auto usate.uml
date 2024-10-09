@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_nNVlsIYZEe-1L9IVwMKCRA" name="Rivendita auto usate">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_nRz2AIYZEe-1L9IVwMKCRA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_sJSs4IYaEe-1L9IVwMKCRA" name="Rivendita auto usate">
+    <packagedElement xmi:type="uml:Class" xmi:id="_wauF0IYaEe-1L9IVwMKCRA" name="Automezzo" visibility="public" isAbstract="true">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="__XPvgIYaEe-1L9IVwMKCRA" name="targa">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FbgYAIYbEe-1L9IVwMKCRA" name="numTelaio">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_IoUSQIYbEe-1L9IVwMKCRA" name="colore">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_LGgzAIYbEe-1L9IVwMKCRA" name="cilindrata">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Nq-T0IYbEe-1L9IVwMKCRA" name="tipoCarburante">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_bWjTAIYbEe-1L9IVwMKCRA" name="optional">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_psalUIYbEe-1L9IVwMKCRA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ptgKcIYbEe-1L9IVwMKCRA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_wMaVUoYgEe-1L9IVwMKCRA" name="contratto" type="_EEFKsIYeEe-1L9IVwMKCRA" association="_wMZuQIYgEe-1L9IVwMKCRA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wMaVU4YgEe-1L9IVwMKCRA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wMa8YIYgEe-1L9IVwMKCRA" value="1"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_x1lE0IYbEe-1L9IVwMKCRA" name="Automobile" visibility="public">
+      <generalization xmi:type="uml:Generalization" xmi:id="_AMrtQIYcEe-1L9IVwMKCRA" general="_wauF0IYaEe-1L9IVwMKCRA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_nBokoIYcEe-1L9IVwMKCRA" name="posti">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_zaLrIIYbEe-1L9IVwMKCRA" name="Camion" visibility="public">
+      <generalization xmi:type="uml:Generalization" xmi:id="__d7J0IYbEe-1L9IVwMKCRA" general="_wauF0IYaEe-1L9IVwMKCRA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hfmfcIYcEe-1L9IVwMKCRA" name="capDiCarico">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2qoIMIYbEe-1L9IVwMKCRA" name="Van" visibility="public">
+      <generalization xmi:type="uml:Generalization" xmi:id="_-bwiMIYbEe-1L9IVwMKCRA" general="_wauF0IYaEe-1L9IVwMKCRA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_XrPCYIYcEe-1L9IVwMKCRA" name="capDiCarico">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7Y-4QIYcEe-1L9IVwMKCRA" name="CartaIdentita" visibility="public">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_DFnz0IYdEe-1L9IVwMKCRA" name="annoImmatric" isStatic="true">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_K9GtcIYdEe-1L9IVwMKCRA" name="numKm">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Qf0vIIYdEe-1L9IVwMKCRA" name="dataUltimaRev">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tXZXYIYdEe-1L9IVwMKCRA" name="Cliente" visibility="public">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_xw9YoIYdEe-1L9IVwMKCRA" name="nome">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zx5VoIYdEe-1L9IVwMKCRA" name="cognome">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1e_woIYdEe-1L9IVwMKCRA" name="indirizzo">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_3xjpIIYdEe-1L9IVwMKCRA" name="cf">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_810s4oYgEe-1L9IVwMKCRA" name="contratto" type="_EEFKsIYeEe-1L9IVwMKCRA" association="_810F0IYgEe-1L9IVwMKCRA">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_811T8IYgEe-1L9IVwMKCRA" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_EEFKsIYeEe-1L9IVwMKCRA" name="Contratto" visibility="public">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_W94iQIYeEe-1L9IVwMKCRA" name="datastipula">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Y_vFQIYeEe-1L9IVwMKCRA" name="ammontare">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_cBrMQIYeEe-1L9IVwMKCRA" name="dataInizioValidita">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_nZ624IYeEe-1L9IVwMKCRA" name="dilazionePagamento">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBoolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zAR2AIYeEe-1L9IVwMKCRA" name="rata">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EFloat"/>
+      </ownedAttribute>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iSmF0IYgEe-1L9IVwMKCRA" memberEnd="_iSnT8oYgEe-1L9IVwMKCRA _iSn7AoYgEe-1L9IVwMKCRA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iSnT8IYgEe-1L9IVwMKCRA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iSnT8YYgEe-1L9IVwMKCRA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iSn7AoYgEe-1L9IVwMKCRA" name="automezzo" type="_wauF0IYaEe-1L9IVwMKCRA" aggregation="composite" association="_iSmF0IYgEe-1L9IVwMKCRA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_iSnT8oYgEe-1L9IVwMKCRA" name="cartaidentita" type="_7Y-4QIYcEe-1L9IVwMKCRA" association="_iSmF0IYgEe-1L9IVwMKCRA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wMZuQIYgEe-1L9IVwMKCRA" memberEnd="_wMaVUoYgEe-1L9IVwMKCRA _wMa8YYYgEe-1L9IVwMKCRA" navigableOwnedEnd="_wMa8YYYgEe-1L9IVwMKCRA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wMaVUIYgEe-1L9IVwMKCRA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wMaVUYYgEe-1L9IVwMKCRA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wMa8YYYgEe-1L9IVwMKCRA" name="automezzo" type="_wauF0IYaEe-1L9IVwMKCRA" association="_wMZuQIYgEe-1L9IVwMKCRA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_810F0IYgEe-1L9IVwMKCRA" memberEnd="_810s4oYgEe-1L9IVwMKCRA _811T8YYgEe-1L9IVwMKCRA" navigableOwnedEnd="_811T8YYgEe-1L9IVwMKCRA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_810s4IYgEe-1L9IVwMKCRA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_810s4YYgEe-1L9IVwMKCRA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_811T8YYgEe-1L9IVwMKCRA" name="cliente" type="_tXZXYIYdEe-1L9IVwMKCRA" association="_810F0IYgEe-1L9IVwMKCRA"/>
+  </packagedElement>
+</uml:Model>

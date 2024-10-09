@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_rqBMYIYZEe-1L9IVwMKCRA" type="PapyrusUMLClassDiagram" name="Rivendita auto usate" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_sJjLkIYaEe-1L9IVwMKCRA" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sJ5J0IYaEe-1L9IVwMKCRA" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_sJ7mEIYaEe-1L9IVwMKCRA" type="Package_PackagedElementCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_wa2BoIYaEe-1L9IVwMKCRA" type="Class_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_wa320IYaEe-1L9IVwMKCRA" type="Class_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_wa320YYaEe-1L9IVwMKCRA" type="Class_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wa320oYaEe-1L9IVwMKCRA" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_wa66IIYaEe-1L9IVwMKCRA" type="Class_AttributeCompartment_CN">
+          <children xmi:type="notation:Shape" xmi:id="_dsyKkIYbEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#__XPvgIYaEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dsyKkYYbEe-1L9IVwMKCRA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_eD9UcIYbEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_FbgYAIYbEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_eD9UcYYbEe-1L9IVwMKCRA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_ebuUMIYbEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_IoUSQIYbEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ebuUMYYbEe-1L9IVwMKCRA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_fBLKoIYbEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_LGgzAIYbEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_fBLKoYYbEe-1L9IVwMKCRA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_fYHD8IYbEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_Nq-T0IYbEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_fYHD8YYbEe-1L9IVwMKCRA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_hzoEIIYbEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_bWjTAIYbEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_hzoEIYYbEe-1L9IVwMKCRA"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_wa7hMIYaEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_wa7hMYYaEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_wa7hMoYaEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wa7hM4YaEe-1L9IVwMKCRA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_wa7hNIYaEe-1L9IVwMKCRA" type="Class_OperationCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_wa7hNYYaEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_wa7hNoYaEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_wa7hN4YaEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wa7hOIYaEe-1L9IVwMKCRA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_wa7hOYYaEe-1L9IVwMKCRA" type="Class_NestedClassifierCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_wa7hOoYaEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_wa7hO4YaEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_wa7hPIYaEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wa7hPYYaEe-1L9IVwMKCRA"/>
+        </children>
+        <element xmi:type="uml:Class" href="Rivendita%20auto%20usate.uml#_wauF0IYaEe-1L9IVwMKCRA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wa2BoYYaEe-1L9IVwMKCRA" x="234" y="303" width="341" height="161"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_x1tAoIYbEe-1L9IVwMKCRA" type="Class_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_x1tAooYbEe-1L9IVwMKCRA" type="Class_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_x1tAo4YbEe-1L9IVwMKCRA" type="Class_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_x1tApIYbEe-1L9IVwMKCRA" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_x1tApYYbEe-1L9IVwMKCRA" type="Class_AttributeCompartment_CN">
+          <children xmi:type="notation:Shape" xmi:id="_n7zt4IYcEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_nBokoIYcEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_n7zt4YYcEe-1L9IVwMKCRA"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_x1tApoYbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_x1tAp4YbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_x1tAqIYbEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x1tAqYYbEe-1L9IVwMKCRA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_x1tnsIYbEe-1L9IVwMKCRA" type="Class_OperationCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_x1tnsYYbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_x1tnsoYbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_x1tns4YbEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x1tntIYbEe-1L9IVwMKCRA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_x1tntYYbEe-1L9IVwMKCRA" type="Class_NestedClassifierCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_x1tntoYbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_x1tnt4YbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_x1tnuIYbEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x1tnuYYbEe-1L9IVwMKCRA"/>
+        </children>
+        <element xmi:type="uml:Class" href="Rivendita%20auto%20usate.uml#_x1lE0IYbEe-1L9IVwMKCRA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x1tAoYYbEe-1L9IVwMKCRA" x="574" y="563" width="221" height="181"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_zaSY0IYbEe-1L9IVwMKCRA" type="Class_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zaSY0oYbEe-1L9IVwMKCRA" type="Class_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_zaS_4IYbEe-1L9IVwMKCRA" type="Class_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zaS_4YYbEe-1L9IVwMKCRA" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_zaS_4oYbEe-1L9IVwMKCRA" type="Class_AttributeCompartment_CN">
+          <children xmi:type="notation:Shape" xmi:id="_jEk5MIYcEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_hfmfcIYcEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_jEk5MYYcEe-1L9IVwMKCRA"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_zaS_44YbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_zaS_5IYbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_zaS_5YYbEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zaS_5oYbEe-1L9IVwMKCRA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_zaS_54YbEe-1L9IVwMKCRA" type="Class_OperationCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_zaS_6IYbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_zaS_6YYbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_zaS_6oYbEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zaS_64YbEe-1L9IVwMKCRA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_zaS_7IYbEe-1L9IVwMKCRA" type="Class_NestedClassifierCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_zaS_7YYbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_zaS_7oYbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_zaS_74YbEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zaS_8IYbEe-1L9IVwMKCRA"/>
+        </children>
+        <element xmi:type="uml:Class" href="Rivendita%20auto%20usate.uml#_zaLrIIYbEe-1L9IVwMKCRA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zaSY0YYbEe-1L9IVwMKCRA" x="314" y="563" width="241" height="181"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_2qu14IYbEe-1L9IVwMKCRA" type="Class_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_2qu14oYbEe-1L9IVwMKCRA" type="Class_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_2qu144YbEe-1L9IVwMKCRA" type="Class_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2qvc8IYbEe-1L9IVwMKCRA" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_2qvc8YYbEe-1L9IVwMKCRA" type="Class_AttributeCompartment_CN">
+          <children xmi:type="notation:Shape" xmi:id="_ZcGjEIYcEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_XrPCYIYcEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ZcGjEYYcEe-1L9IVwMKCRA"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_2qvc8oYbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_2qvc84YbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_2qvc9IYbEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2qvc9YYbEe-1L9IVwMKCRA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_2qvc9oYbEe-1L9IVwMKCRA" type="Class_OperationCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_2qvc94YbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_2qvc-IYbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_2qvc-YYbEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2qvc-oYbEe-1L9IVwMKCRA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_2qvc-4YbEe-1L9IVwMKCRA" type="Class_NestedClassifierCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_2qvc_IYbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_2qvc_YYbEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_2qvc_oYbEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2qvc_4YbEe-1L9IVwMKCRA"/>
+        </children>
+        <element xmi:type="uml:Class" href="Rivendita%20auto%20usate.uml#_2qoIMIYbEe-1L9IVwMKCRA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2qu14YYbEe-1L9IVwMKCRA" x="34" y="563" width="261" height="181"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_7ZG0EIYcEe-1L9IVwMKCRA" type="Class_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_7ZG0EoYcEe-1L9IVwMKCRA" type="Class_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_7ZG0E4YcEe-1L9IVwMKCRA" type="Class_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7ZG0FIYcEe-1L9IVwMKCRA" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_7ZG0FYYcEe-1L9IVwMKCRA" type="Class_AttributeCompartment_CN">
+          <children xmi:type="notation:Shape" xmi:id="_qkGJUIYdEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_DFnz0IYdEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qkGJUYYdEe-1L9IVwMKCRA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_q2NNAIYdEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_K9GtcIYdEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_q2NNAYYdEe-1L9IVwMKCRA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_rJlcAIYdEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_Qf0vIIYdEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_rJlcAYYdEe-1L9IVwMKCRA"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_7ZG0FoYcEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_7ZG0F4YcEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_7ZG0GIYcEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7ZG0GYYcEe-1L9IVwMKCRA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_7ZG0GoYcEe-1L9IVwMKCRA" type="Class_OperationCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_7ZG0G4YcEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_7ZG0HIYcEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_7ZG0HYYcEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7ZG0HoYcEe-1L9IVwMKCRA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_7ZG0H4YcEe-1L9IVwMKCRA" type="Class_NestedClassifierCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_7ZG0IIYcEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_7ZG0IYYcEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_7ZG0IoYcEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7ZG0I4YcEe-1L9IVwMKCRA"/>
+        </children>
+        <element xmi:type="uml:Class" href="Rivendita%20auto%20usate.uml#_7Y-4QIYcEe-1L9IVwMKCRA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7ZG0EYYcEe-1L9IVwMKCRA" x="334" y="23" width="341" height="172"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_tXk9kIYdEe-1L9IVwMKCRA" type="Class_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_tXlkoIYdEe-1L9IVwMKCRA" type="Class_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_tXlkoYYdEe-1L9IVwMKCRA" type="Class_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_tXlkooYdEe-1L9IVwMKCRA" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_tXlko4YdEe-1L9IVwMKCRA" type="Class_AttributeCompartment_CN">
+          <children xmi:type="notation:Shape" xmi:id="_537fwIYdEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_xw9YoIYdEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_537fwYYdEe-1L9IVwMKCRA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_6RyxQIYdEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_zx5VoIYdEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_6RyxQYYdEe-1L9IVwMKCRA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_6ojEYIYdEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_1e_woIYdEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_6ojEYYYdEe-1L9IVwMKCRA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_6_u1UIYdEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_3xjpIIYdEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_6_u1UYYdEe-1L9IVwMKCRA"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_tXlkpIYdEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_tXlkpYYdEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_tXlkpoYdEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tXlkp4YdEe-1L9IVwMKCRA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_tXlkqIYdEe-1L9IVwMKCRA" type="Class_OperationCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_tXlkqYYdEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_tXlkqoYdEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_tXlkq4YdEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tXlkrIYdEe-1L9IVwMKCRA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_tXlkrYYdEe-1L9IVwMKCRA" type="Class_NestedClassifierCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_tXlkroYdEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_tXlkr4YdEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_tXlksIYdEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tXlksYYdEe-1L9IVwMKCRA"/>
+        </children>
+        <element xmi:type="uml:Class" href="Rivendita%20auto%20usate.uml#_tXZXYIYdEe-1L9IVwMKCRA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tXk9kYYdEe-1L9IVwMKCRA" x="834" y="23" width="281" height="210"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_EEQw4IYeEe-1L9IVwMKCRA" type="Class_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_EERX8IYeEe-1L9IVwMKCRA" type="Class_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_EERX8YYeEe-1L9IVwMKCRA" type="Class_FloatingNameLabel_CN">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_EERX8oYeEe-1L9IVwMKCRA" y="15"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_EERX84YeEe-1L9IVwMKCRA" type="Class_AttributeCompartment_CN">
+          <children xmi:type="notation:Shape" xmi:id="_0UvHgIYeEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_W94iQIYeEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_0UvHgYYeEe-1L9IVwMKCRA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_0sYLcIYeEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_Y_vFQIYeEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_0sYLcYYeEe-1L9IVwMKCRA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_0-ICwIYeEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_cBrMQIYeEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_0-ICwYYeEe-1L9IVwMKCRA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_1SvA0IYeEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_nZ624IYeEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_1SvA0YYeEe-1L9IVwMKCRA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_1lryAIYeEe-1L9IVwMKCRA" type="Property_ClassAttributeLabel">
+            <element xmi:type="uml:Property" href="Rivendita%20auto%20usate.uml#_zAR2AIYeEe-1L9IVwMKCRA"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_1lryAYYeEe-1L9IVwMKCRA"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_EERX9IYeEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_EERX9YYeEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_EERX9oYeEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EERX94YeEe-1L9IVwMKCRA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_EERX-IYeEe-1L9IVwMKCRA" type="Class_OperationCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_EERX-YYeEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_EERX-oYeEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_EERX-4YeEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EERX_IYeEe-1L9IVwMKCRA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_EERX_YYeEe-1L9IVwMKCRA" type="Class_NestedClassifierCompartment_CN">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_EERX_oYeEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_EERX_4YeEe-1L9IVwMKCRA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_EERYAIYeEe-1L9IVwMKCRA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EERYAYYeEe-1L9IVwMKCRA"/>
+        </children>
+        <element xmi:type="uml:Class" href="Rivendita%20auto%20usate.uml#_EEFKsIYeEe-1L9IVwMKCRA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EEQw4YYeEe-1L9IVwMKCRA" x="834" y="383" width="341" height="305"/>
+      </children>
+      <styles xmi:type="notation:TitleStyle" xmi:id="_sJ7mEYYaEe-1L9IVwMKCRA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJ7mEoYaEe-1L9IVwMKCRA"/>
+    </children>
+    <element xmi:type="uml:Package" href="Rivendita%20auto%20usate.uml#_sJSs4IYaEe-1L9IVwMKCRA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sJjLkYYaEe-1L9IVwMKCRA" x="260" y="-20" width="1261" height="821"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_rqBMYYYZEe-1L9IVwMKCRA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_rqBMYoYZEe-1L9IVwMKCRA"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_rqBMY4YZEe-1L9IVwMKCRA" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <owner xmi:type="uml:Model" href="Rivendita%20auto%20usate.uml#_nNVlsIYZEe-1L9IVwMKCRA"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Rivendita%20auto%20usate.uml#_nNVlsIYZEe-1L9IVwMKCRA"/>
+  <edges xmi:type="notation:Connector" xmi:id="_-b8IYIYbEe-1L9IVwMKCRA" type="Generalization_Edge" source="_2qu14IYbEe-1L9IVwMKCRA" target="_wa2BoIYaEe-1L9IVwMKCRA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-b8IY4YbEe-1L9IVwMKCRA" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-QMEAIYeEe-1L9IVwMKCRA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_-b8IZIYbEe-1L9IVwMKCRA" y="40"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_-b8IYYYbEe-1L9IVwMKCRA"/>
+    <element xmi:type="uml:Generalization" href="Rivendita%20auto%20usate.uml#_-bwiMIYbEe-1L9IVwMKCRA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-b8IYoYbEe-1L9IVwMKCRA" points="[500, 340, -643984, -643984]$[500, 261, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-cYNQIYbEe-1L9IVwMKCRA" id="(0.7662835249042146,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-cYNQYYbEe-1L9IVwMKCRA" id="(0.23460410557184752,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="__eE60IYbEe-1L9IVwMKCRA" type="Generalization_Edge" source="_zaSY0IYbEe-1L9IVwMKCRA" target="_wa2BoIYaEe-1L9IVwMKCRA">
+    <children xmi:type="notation:DecorationNode" xmi:id="__eE604YbEe-1L9IVwMKCRA" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-QXqMIYeEe-1L9IVwMKCRA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="__eE61IYbEe-1L9IVwMKCRA" x="-1" y="38"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="__eE60YYbEe-1L9IVwMKCRA"/>
+    <element xmi:type="uml:Generalization" href="Rivendita%20auto%20usate.uml#__d7J0IYbEe-1L9IVwMKCRA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__eE60oYbEe-1L9IVwMKCRA" points="[620, 580, -643984, -643984]$[700, 540, -643984, -643984]$[620, 481, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__eWnoIYbEe-1L9IVwMKCRA" id="(0.4979253112033195,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__eWnoYYbEe-1L9IVwMKCRA" id="(0.5865102639296188,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_AM2FUIYcEe-1L9IVwMKCRA" type="Generalization_Edge" source="_x1tAoIYbEe-1L9IVwMKCRA" target="_wa2BoIYaEe-1L9IVwMKCRA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_AM2sYIYcEe-1L9IVwMKCRA" type="Generalization_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_-Qe-8IYeEe-1L9IVwMKCRA" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_AM2sYYYcEe-1L9IVwMKCRA" y="39"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_AM2FUYYcEe-1L9IVwMKCRA"/>
+    <element xmi:type="uml:Generalization" href="Rivendita%20auto%20usate.uml#_AMrtQIYcEe-1L9IVwMKCRA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AM2FUoYcEe-1L9IVwMKCRA" points="[941, 380, -643984, -643984]$[560, 261, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ANJAQIYcEe-1L9IVwMKCRA" id="(0.36199095022624433,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ANJAQYYcEe-1L9IVwMKCRA" id="(0.9384164222873901,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_iS1WYIYgEe-1L9IVwMKCRA" type="Association_Edge" source="_wa2BoIYaEe-1L9IVwMKCRA" target="_7ZG0EIYcEe-1L9IVwMKCRA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_iS19cIYgEe-1L9IVwMKCRA" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HtC2oIY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_iS19cYYgEe-1L9IVwMKCRA" x="-1" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_iS19coYgEe-1L9IVwMKCRA" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HtRgIIY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_iS19c4YgEe-1L9IVwMKCRA" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_iS19dIYgEe-1L9IVwMKCRA" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HtgwsIY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_iS19dYYgEe-1L9IVwMKCRA" x="20" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_iS19doYgEe-1L9IVwMKCRA" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HtuMEIY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_iS19d4YgEe-1L9IVwMKCRA" x="-22" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_iS19eIYgEe-1L9IVwMKCRA" type="Association_SourceMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Ht8OgIY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_iS19eYYgEe-1L9IVwMKCRA" x="21" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_iS19eoYgEe-1L9IVwMKCRA" type="Association_TargetMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HuJp4IY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_iS19e4YgEe-1L9IVwMKCRA" x="-23" y="-18"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_iS1WYYYgEe-1L9IVwMKCRA"/>
+    <element xmi:type="uml:Association" href="Rivendita%20auto%20usate.uml#_iSmF0IYgEe-1L9IVwMKCRA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iS1WYoYgEe-1L9IVwMKCRA" points="[581, 180, -643984, -643984]$[700, 100, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iTsSAIYgEe-1L9IVwMKCRA" id="(0.7038123167155426,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iTs5EIYgEe-1L9IVwMKCRA" id="(0.41055718475073316,1.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_wMmikIYgEe-1L9IVwMKCRA" type="Association_Edge" source="_wa2BoIYaEe-1L9IVwMKCRA" target="_EEQw4IYeEe-1L9IVwMKCRA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wMmik4YgEe-1L9IVwMKCRA" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HuXsUIY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wMmilIYgEe-1L9IVwMKCRA" x="1" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wMmilYYgEe-1L9IVwMKCRA" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HulHsIY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wMmiloYgEe-1L9IVwMKCRA" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wMmil4YgEe-1L9IVwMKCRA" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Hux8AIY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wMmimIYgEe-1L9IVwMKCRA" x="77" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wMmimYYgEe-1L9IVwMKCRA" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Hu_XYIY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wMmimoYgEe-1L9IVwMKCRA" x="-78" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wMnJoIYgEe-1L9IVwMKCRA" type="Association_SourceMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HvS5YIY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wMnJoYYgEe-1L9IVwMKCRA" x="78" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wMnJooYgEe-1L9IVwMKCRA" type="Association_TargetMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HvftsIY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_wMnJo4YgEe-1L9IVwMKCRA" x="-79" y="-18"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_wMmikYYgEe-1L9IVwMKCRA"/>
+    <element xmi:type="uml:Association" href="Rivendita%20auto%20usate.uml#_wMZuQIYgEe-1L9IVwMKCRA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wMmikoYgEe-1L9IVwMKCRA" points="[581, 200, -643984, -643984]$[1080, 360, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wNJVIIYgEe-1L9IVwMKCRA" id="(1.0,0.6211180124223602)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wNJVIYYgEe-1L9IVwMKCRA" id="(0.0,0.06557377049180328)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_82CIQIYgEe-1L9IVwMKCRA" type="Association_Edge" source="_tXk9kIYdEe-1L9IVwMKCRA" target="_EEQw4IYeEe-1L9IVwMKCRA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_82CIQ4YgEe-1L9IVwMKCRA" type="Association_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HwGKoIY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_82CIRIYgEe-1L9IVwMKCRA" x="1" y="-18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_82CIRYYgEe-1L9IVwMKCRA" type="Association_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HwSX4IY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_82CvUIYgEe-1L9IVwMKCRA" x="1" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_82CvUYYgEe-1L9IVwMKCRA" type="Association_TargetRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HwfMMIY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_82CvUoYgEe-1L9IVwMKCRA" x="21" y="-19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_82CvU4YgEe-1L9IVwMKCRA" type="Association_SourceRoleLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HwqyYIY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_82CvVIYgEe-1L9IVwMKCRA" x="-73" y="-39"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_82CvVYYgEe-1L9IVwMKCRA" type="Association_SourceMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_Hw2YkIY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_82CvVoYgEe-1L9IVwMKCRA" x="22" y="17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_82CvV4YgEe-1L9IVwMKCRA" type="Association_TargetMultiplicityLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_HxB-wIY4Ee-7uqh_zowD4w" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_82CvWIYgEe-1L9IVwMKCRA" x="-23" y="-17"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_82CIQYYgEe-1L9IVwMKCRA"/>
+    <element xmi:type="uml:Association" href="Rivendita%20auto%20usate.uml#_810F0IYgEe-1L9IVwMKCRA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_82CIQoYgEe-1L9IVwMKCRA" points="[1101, 220, -643984, -643984]$[1200, 320, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_82vS4IYgEe-1L9IVwMKCRA" id="(0.498220640569395,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_82v58IYgEe-1L9IVwMKCRA" id="(0.3519061583577713,0.0)"/>
+  </edges>
+</notation:Diagram>
